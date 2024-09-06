@@ -14,6 +14,8 @@ for(let key in array) {
     }
 }
 
-// Единственный примитивный тип  данных о котором я не знал. Узнал из вашей лекции ))
+console.log("typeof(" + array + ") == " + typeof(array));
+console.log("Скажу честно об типе данных symbol не слышал. Узнал на вашей лекции ))");
+
 let uniqueID = Symbol('description');
-console.log(typeof(uniqueID));
+console.log(`typeof(${uniqueID.toString()}) == ${typeof(uniqueID)}`);
