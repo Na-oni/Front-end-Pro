@@ -1,6 +1,6 @@
 let number = prompt("Введите число");
 
-alert(`[0] = ${number[0]}, [1] = ${number[1]}, [2] = ${number[2]}`);
+console.log(`[0] = ${number[0]}, [1] = ${number[1]}, [2] = ${number[2]}`);
 
 if (number[0] === number[1] && number[1] === number[2]) {
     alert('В числе все цифры одинаковые');
