@@ -1,0 +1,15 @@
+.task_solution {
+    text-align: center;
+}
+
+.task_solution button {
+    border: 1px solid #333333;
+    margin: 0 8px;
+    border-radius: 8px;
+    padding: 4px 16px;
+}
+
+.task_solution button:hover {
+    background-color: #333333;
+    color: #ffffff;
+}
