@@ -1,0 +1,67 @@
+.task_solution {
+    background-color: #ffffff;
+    border-radius: 24px;
+    max-width: 800px;
+    padding: 20px;
+    margin: auto;
+}
+
+.task_list {
+    margin-bottom: 24px;
+}
+
+.task_list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task_list li {
+    border-bottom: 1px solid #e0e0e0;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 8px;
+}
+
+.task_list li:last-child {
+    border-bottom: none;
+}
+
+.task_list li span {
+    margin: 0 8px;
+}
+
+.delete {
+    transition: background-color 0.3s;
+    background-color: #ff4d4d;
+    border-radius: 8px;
+    padding: 4px 8px;
+    color: #ffffff;
+    border: none;
+}
+
+.form {
+    justify-content: space-between;
+    display: flex;
+}
+
+.form input[type="text"] {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-right: 8px;
+    padding: 8px;
+    flex: 1;
+}
+
+.form input[type="submit"] {
+    transition: background-color 0.3s;
+    background-color: #007bff;
+    border-radius: 8px;
+    padding: 4px 10px;
+    color: #ffffff;
+    border: none;
+}
+
+.form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
