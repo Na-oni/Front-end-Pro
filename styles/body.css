@@ -31,7 +31,7 @@ body {
 }
 
 .task_description {
-  text-align: center;
+   /*text-align: center;*/
 }
 
 .task_solution {
