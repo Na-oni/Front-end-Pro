@@ -1,0 +1,90 @@
+.slider {
+    margin: 8px;
+    padding: 24px;
+}
+
+.slide {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.content {
+    background-color: #E1E1E1;
+    border-radius: 8px;
+    align-items: center;
+    display: flex;
+    flex: 1;
+    margin: 0 10px;
+}
+
+.content img {
+    margin-right: 15px;
+    width: 210px;
+}
+
+.nav-button {
+    background-color: #3e3a3b;
+    color: #f0f0f0;
+    width: 80px;
+    border-radius: 8px;
+}
+
+.content a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #00BFFF;
+}
+
+.content a:hover {
+    text-decoration: none;
+    color: #00BFFF;
+}
+
+.content .text {
+    background-color: #e52b50;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 5px;
+    display: block;
+}
+
+.content .representative {
+    display: block; /* Отображение как блочного элемента */
+    margin-top: 5px; /* Отступ сверху */
+    font-size: 0.9em; /* Меньший размер шрифта для выделения */
+    color: #2f2f2f; /* Оранжевый цвет текста */
+    font-style: italic; /* Курсивное начертание для дополнительного акцента */
+}
+
+.content .position {
+    display: block; /* Блочное отображение */
+    margin-top: 5px; /* Отступ сверху */
+    font-size: 0.8em; /* Еще меньший размер шрифта */
+    color: #808080; /* Светло-серый цвет текста */
+    text-transform: uppercase; /* Преобразование текста в заглавные буквы */
+}
+
+
+
+
+
+.navigation_dots {
+    text-align: center;
+    margin-top: 8px;
+}
+.dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    border-radius: 50%;
+    background-color: gray; /* Цвет точки */
+    cursor: pointer;
+}
+.dot.active {
+    background-color: black; /* Цвет активной точки */
+}
