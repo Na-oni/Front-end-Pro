@@ -32,25 +32,26 @@ function start_timer(milliseconds) {
 function show_time(milliseconds) {
     const seconds = Math.floor(milliseconds / 1000);
     const minutes = Math.floor(seconds / 60);
+    const hours = Math.floor(minutes / 60);
     const remaining_seconds = seconds % 60;
+    const remaining_minutes = minutes % 60;
 
-    const string_minutes = String(minutes).padStart(2, '0');
+    const string_hours = String(hours).padStart(2, '0');
+    const string_minutes = String(remaining_minutes).padStart(2, '0');
     const string_seconds = String(remaining_seconds).padStart(2, '0');
 
-    return `${string_minutes}:${string_seconds}`;
+    return `${string_hours}:${string_minutes}:${string_seconds}`;
 }
 
 function show_video() {
-    const task_solution = document.getElementsByClassName("task_solution")[0];
+    const task_solution = document.getElementsByClassName("task_solution");
+    const hidden_div = document.getElementById("hidden_div");
+    const video = document.getElementById("video");
 
-    const br = document.createElement('br');
-    const video = document.createElement('video');
-
-    video.src = './video.mp4';
+    hidden_div.style.display = "block";
     video.controls = true;
-    video.height = 640;
     video.volume = 0.5;
 
-    task_solution.appendChild(br);
-    task_solution.appendChild(video);
+    hidden_div.appendChild(video);
+    task_solution.appendChild(hidden_div);
 }

@@ -6,3 +6,11 @@
 .time-selector {
     margin: 12px;
 }
+
+.hidden_div {
+    display: none;
+}
+
+.hidden_div video {
+    margin: 12px;
+}
