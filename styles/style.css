@@ -1,0 +1,29 @@
+/* Стили для блока с решением задач */
+.task_solution {
+    display: flex;
+    flex-direction: column; /* Вертикальное выравнивание */
+    gap: 15px; /* Пробел между элементами */
+}
+
+.task_solution p {
+    margin: 0; /* Убираем отступы у абзацев */
+    padding: 10px;
+    border: 1px solid #ddd; /* Легкая граница для выделения */
+    border-radius: 5px; /* Закругленные углы для абзацев */
+    background-color: #f9f9f9; /* Светлый фон для абзацев */
+}
+
+/* Стили для кнопки обновления */
+button {
+    background-color: #333; /* Темно-серый цвет кнопки */
+    color: #fff; /* Белый цвет текста кнопки */
+    border: none; /* Убираем границы */
+    padding: 10px 20px;
+    border-radius: 5px; /* Закругленные углы */
+    cursor: pointer; /* Указываем, что кнопка кликабельна */
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #444; /* Цвет при наведении на кнопку */
+}
