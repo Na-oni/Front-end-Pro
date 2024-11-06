@@ -1,45 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Front-end Pro</title>
-    <link rel="stylesheet" href="./styles/style.css">
-    <script src="main.js"></script>
+    <meta charset="utf-8">
+    <title>Front-end pro</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="./styles/header.css">
-    <link rel="stylesheet" href="./styles/fonts.css">
     <link rel="stylesheet" href="./styles/body.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
 
 <header>
     <nav class='navbar'>
         <div class='container'>
-            <div class='menu_on_center'>
-                <ul class='navbar-menu'>
-                    <li>
-                        <a href='#'>Добро пожаловать на мою цифровую площадку, где я делаю вид, что знаю, что делаю <span>🤔</span></a>
-                    </li>
-                </ul>
-            </div>
+            <a href='#'>Мой сайт работает идеально, просто он еще не загрузился...<span>⏳👀</span></a>
         </div>
     </nav>
 </header>
 
-<div>
+<main>
     <div class='container'>
-        <div class="body">
-            <div class="task_description">
-
-            </div>
-            <hr/>
-            <div class="task_solution">
-
-            </div>
+        <div id="task-solution" class="task-solution">
+            <form class='form-creation' id="creation_form">
+                <input id="form_title" type="text" name="title" placeholder="Заголовок" required>
+                <textarea id="form_body" name="body" rows="5" placeholder="Текст" required></textarea>
+                <button type="submit">Опубликовать</button>
+            </form>
+            <hr>
+            <ul id="post_ul"></ul>
         </div>
     </div>
-</div>
+</main>
+
+<script src="main.js"></script>
 
 </body>
 </html>
