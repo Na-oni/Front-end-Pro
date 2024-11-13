@@ -11,28 +11,30 @@
 <body>
 
 <header>
-    <nav class='navbar'>
-        <div class='container'>
-            <a href='#'>Мой сайт работает идеально, просто он еще не загрузился...<span>⏳👀</span></a>
-        </div>
-    </nav>
+    <div class='container'>
+        <div class="item left"><a href="#">Зачаруйте кирку на +5</a></div>
+        <div class="item center"><span class="website-slogan">✨ На 100% бесполезный сайт, но с душой! ✨</span></div>
+        <div class="item right"><a href="#"><img src="https://static-cdn.jtvnw.net/jtv_user_pictures/795c2918-d10b-4937-a3c6-897382cb2273-profile_image-300x300.png" alt="aga!"></a></div>
+    </div>
 </header>
 
 <main>
     <div class='container'>
         <div id="task-solution" class="task-solution">
-            <form class='form-creation' id="creation_form">
-                <input id="form_title" type="text" name="title" placeholder="Заголовок" required>
-                <textarea id="form_body" name="body" rows="5" placeholder="Текст" required></textarea>
-                <button type="submit">Опубликовать</button>
-            </form>
+            <div class="div-form">
+                <form class="form-creation" id="creation_form">
+                    <input id="form_title" type="text" name="title" placeholder="Заголовок" required>
+                    <textarea id="form_body" name="body" rows="5" placeholder="Текст" required></textarea>
+                    <button type="submit">Опубликовать</button>
+                </form>
+            </div>
             <hr>
             <ul id="post_ul"></ul>
         </div>
     </div>
 </main>
 
-<script src="main.js"></script>
+<script src="main.js" type="module"></script>
 
 </body>
 </html>

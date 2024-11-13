@@ -1,18 +1,34 @@
-const url = 'https://jsonplaceholder.typicode.com/posts';
+import { get_posts, get_comments_by_id, push_post } from './server-interaction.js';
 
 const creation_form = document.getElementById('creation_form');
 const post_ul = document.getElementById('post_ul');
 
-// Получение постов
-function load() {
-    fetch(url + '?_limit=10').then((response) => {
-        return response.json();
-    }).then(data => {
-        post_ul.innerHTML = '';
-        render(data);
-    }).catch(error => console.log(error));
-}
+// Получение данных через server-interaction
+get_posts().then(posts => { render(posts) });
+creation_form.addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    const title = document.getElementById('form_title').value.trim();
+    const body = document.getElementById('form_body').value.trim();
+
+    if(title && body) {
+        push_post({title, body}).then(data => { render_post(data) });
+    }
+});
+post_ul.addEventListener('click', function(event) {
+    event.preventDefault();
+
+    if(event.target.classList.contains('upload-comments')) {
+        const id  = event.target.parentElement.dataset.id;
+
+        get_comments_by_id(id).then(comments => { render_comments(id ,comments) });
+    }
+});
+
+// Render
 function render(posts) {
+    post_ul.innerHTML = '';
+
     posts.forEach((post) => {
         const li = document.createElement('li');
         li.dataset.id = post.id;
@@ -20,22 +36,6 @@ function render(posts) {
         li.innerHTML = `<p class="title-post">${post.title}</p><p class="body-post">${post.body}</p><button class="upload-comments">Загрузить комментарии</button>`;
         post_ul.appendChild(li);
     })
-}
-
-
-// Получение комментариев к постам
-function upload_comments(event) {
-    event.preventDefault();
-
-    if(event.target.classList.contains('upload-comments')) {
-        const id  = event.target.parentElement.dataset.id;
-
-        fetch(url + `\/${id}/comments?_limit=2`).then((response) => {
-            return response.json();
-        }).then(data => {
-            render_comments(id, data);
-        }).catch(error => console.log(error));
-    }
 }
 function render_comments(id, comments) {
     const li = document.querySelector(`[data-id='${id}']`);
@@ -47,32 +47,6 @@ function render_comments(id, comments) {
         li.appendChild(div);
     })
 }
-
-
-// Создание нового поста
-function create_post(event) {
-    event.preventDefault();
-
-    const title = document.getElementById('form_title').value.trim();
-    const body = document.getElementById('form_body').value.trim();
-
-    if(title && body) {
-        fetch(url, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ title: title, body: body, postId: 1 })
-        }).then((response) => {
-            if(response.status === 201) {
-                console.log('Пост створено успішно');
-            }
-
-            return response.json();
-        }).then(data => {
-            render_post(data);
-        }).catch(error => console.error('Error:', error));
-
-    }
-}
 function render_post(post) {
     const li = document.createElement('li');
     li.dataset.id = post.id;
@@ -80,9 +54,3 @@ function render_post(post) {
     li.innerHTML = `<p class="title-post">${post.title}</p><p class="body-post">${post.body}</p><button class="upload-comments">Загрузить комментарии</button>`;
     post_ul.appendChild(li);
 }
-
-// Запуск
-creation_form.addEventListener('submit', create_post);
-post_ul.addEventListener('click', upload_comments);
-
-load();

@@ -1,21 +1,32 @@
+.div-form {
+    background-color: var(--background-color-header);
+    margin: 0 16rem 8px;
+    border-radius: 24px;
+    padding: 8px;
+}
+
 .form-creation {
+    background-color: var(--main-color-text);
+    border-radius: 16px;
+    padding: 8px;
+
+
     display: flex;
     flex-direction: column;
     height: 100%;
 }
 
 .form-creation input[type="text"], .form-creation textarea {
-    font-family: var(--main-font-family), serif;
+    font-family: var(--font-family), serif;
     border: 1px solid #ccc;
     border-radius: 8px;
     font-size: 1rem;
     padding: 16px;
-
-    margin: 0 16rem 8px;
+    margin-bottom: 8px;
 }
 
 .form-creation button {
-    font-family: var(--main-font-family), serif;
+    font-family: var(--font-family), serif;
     border: 1px solid #ccc;
     border-radius: 8px;
     font-size: 1rem;
@@ -23,7 +34,6 @@
 
 
     background-color: #5cb85c;
-    margin: 0 16rem;
     cursor: pointer;
     color: white;
 }
