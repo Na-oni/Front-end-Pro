@@ -1,8 +1,11 @@
 @import url('fonts.css');
 
 :root {
-  --main-color-text: #f0f0f0;
-  --main-font-family: Roboto, Mali;
+  --font-family: Roboto, Mali;
+
+  --background-color-body: #333333;
+  --background-color-header: #212121;
+  --main-color-text: #f8f8ff;/*#f0f0f0*/
 }
 
 ::-webkit-scrollbar {
@@ -10,23 +13,13 @@
 }
 
 body {
-  font-family: var(--main-font-family) serif;
-  background-color: #f5f5f5;
+  background-color: var(--background-color-body);
+  font-family: var(--font-family), serif;
+
   padding: 0;
   margin: 0;
 }
 
 main {
-  justify-content: space-between;
-  align-items: center;
-  margin: 0 7.5rem;
-  display: flex;
-}
-
-main .container {
-  background-color: #f0f0f0;
-  border: 2px solid #333333;
-  border-radius: 20px;
-  padding: 16px;
-  flex: 1;
+  margin: 0 6rem;
 }
