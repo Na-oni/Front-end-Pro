@@ -1,5 +1,6 @@
 import { get_posts, get_comments_by_id, push_post } from './server-interaction.js';
 
+
 const creation_form = document.getElementById('creation_form');
 const post_ul = document.getElementById('post_ul');
 
