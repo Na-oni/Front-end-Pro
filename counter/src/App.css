@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mali:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+:root {
+    --font-family: Roboto, Mali;
+
+    --background-color-body: #333333;
+    --background-color-header: #212121;
+    --main-color-text: #f8f8ff;/*#f0f0f0*/
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+body {
+    background-color: var(--background-color-body);
+    font-family: var(--font-family), serif;
+
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    margin: 0 6rem;
+}
