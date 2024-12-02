@@ -1,4 +1,5 @@
 import {Component} from "react";
+import Homework from "../homework/Homework.js";
 
 import './Main.css';
 
@@ -7,7 +8,7 @@ class Main extends Component {
         return (
             <main>
                 <div className='container'>
-
+                    <Homework></Homework>
                 </div>
             </main>
         )
