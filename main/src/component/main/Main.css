@@ -1,5 +1,5 @@
 main .container {
-    background-color: var(--main-color-text);
+    background-color: var(--background-color-container);
     border-radius: 24px;
     margin-bottom: 16px;
     padding: 16px;
@@ -7,6 +7,7 @@ main .container {
     display: grid;
     flex-direction: column;
     height: 100%;
+
 
     text-align: center;
 }

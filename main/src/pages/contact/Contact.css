@@ -1,0 +1,35 @@
+.contact-container {
+    display: grid;
+
+    justify-content: center;
+    align-items: center;
+    grid-gap: 1rem;
+
+}
+
+.contact-container .main-text {
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #333;
+}
+
+.contact-container text {
+    font-size: 1rem;
+    margin: 10px 0;
+    color: #666;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.contact-container a {
+    text-decoration: none;
+    color: #0073e6;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.contact-container a:hover {
+    color: #005bb5;
+}

@@ -5,16 +5,26 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 
 :root {
-    --font-family: Roboto, Mali;
+    --font-family: Inter, Roboto, Mali;
 
-    --background-color-body: #333333;
+    --background-color-body: rgb(200, 200, 210);
+    --background-color-container: #f8f8ff;
+    --text-color-menu: rgb(60, 63, 65);
+    --text-color-main: #f8f8ff;
+
+    /*--background-color-body: #333333;*/
     --background-color-header: #212121;
-    --main-color-text: #f8f8ff;/*#f0f0f0*/
+    --new-color-background: RGB(60, 63, 65);
 }
 
 ::-webkit-scrollbar {
     width: 0;
 }
+
+/* * {
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}*/
 
 body {
     background-color: var(--background-color-body);
@@ -26,4 +36,23 @@ body {
 
 main {
     margin: 0 6rem;
+}
+
+body.light {
+    background-color: var(--background-color-body);
+}
+
+body.dark {
+    background-image: url("https://kartinki.pics/uploads/posts/2021-07/1627099841_20-kartinkin-com-p-smeshnoi-fon-dlya-rabochego-stola-krasivo-20.jpg");
+    background-size: cover;
+}
+
+.theme-button {
+    background-color: var(--background-color-header);
+    color: var(--text-color-main);
+    font-style: italic;
+    font-size: 1.2rem;
+    border: none;
+
+    padding: 0 !important;
 }
