@@ -28,7 +28,7 @@ header .item a {
 }
 
 header .item a:hover {
-	color: greenyellow;
+	color: var(--color-a-hover);
 	text-decoration: none;
 }
 
