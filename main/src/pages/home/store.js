@@ -1,9 +1,10 @@
 import { configureStore } from '@reduxjs/toolkit';
-import counter from './counter';
+
+import todo_list from './todo-list';
 
 const store = configureStore({
     reducer: {
-        counter: counter,
+        todo_list: todo_list,
     },
 });
 

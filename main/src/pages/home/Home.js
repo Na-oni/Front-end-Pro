@@ -1,21 +1,38 @@
+import React, { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { increment, decrement, reset } from './counter';
+import { add } from './todo-list';
 
 import './Home.css';
 
 function Home() {
-    const count = useSelector((state) => state.counter.value);
+    const [taskName, setTaskName] = useState(''); // Локальное состояние для текста задачи
+    const tasks = useSelector((state) => state.todo_list.tasks || []); // Достаем задачи из состояния
     const dispatch = useDispatch();
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+
+        if (taskName.trim()) {
+            dispatch(add(taskName));
+            setTaskName('');
+        }
+    };
 
     return (
         <div className="main-container">
-            <p className='counter'>Counter: {count}</p>
-
-            <div className='counter-buttons'>
-                <button onClick={() => dispatch(increment())}>+</button>
-                <button onClick={() => dispatch(decrement())}>-</button>
-                <button onClick={() => dispatch(reset())}>Reset</button>
+            <form className='form-group' onSubmit={handleSubmit}>
+                <input className='item' name="task" type="text" value={taskName} onChange={(e) => setTaskName(e.target.value)}/>
+                <button className='item' type="submit">Add</button>
+            </form>
+            <hr/>
+            <div className='container-tasks'>
+                {tasks.map((task, index) => (
+                    <div className='task' key={index}>
+                        <span className='task-text'>{task.name}</span>
+                    </div>
+                ))}
             </div>
+            <p className='task-counter'>Всего: {tasks.length}</p>
         </div>
     );
 }
