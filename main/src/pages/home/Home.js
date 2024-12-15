@@ -5,8 +5,8 @@ import { add } from './todo-list';
 import './Home.css';
 
 function Home() {
-    const [taskName, setTaskName] = useState(''); // Локальное состояние для текста задачи
-    const tasks = useSelector((state) => state.todo_list.tasks || []); // Достаем задачи из состояния
+    const [taskName, setTaskName] = useState('');
+    const tasks = useSelector((state) => state.todo_list.tasks || []);
     const dispatch = useDispatch();
 
     const handleSubmit = (e) => {
