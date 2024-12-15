@@ -12,8 +12,8 @@ function Home() {
             <p className='counter'>Counter: {count}</p>
 
             <div className='counter-buttons'>
-                <button onClick={() => dispatch(increment())}>+1</button>
-                <button onClick={() => dispatch(decrement())}>-1</button>
+                <button onClick={() => dispatch(increment())}>+</button>
+                <button onClick={() => dispatch(decrement())}>-</button>
                 <button onClick={() => dispatch(reset())}>Reset</button>
             </div>
         </div>
