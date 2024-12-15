@@ -101,6 +101,14 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.task button {
+    border: 1px solid var(--background-color-header);
+    font-family: var(--font-family), serif;
+    border-radius: 5px;
+    padding: 6px;
+    width: 120px;
+}
+
 .task-text {
     flex: 1;
     display: inline-block;
@@ -122,4 +130,12 @@ hr {
     border-top: 1px solid #ddd;
     margin: 12px 0;
     opacity: 0.3;
+}
+
+.task-action-status {
+    background-color: #e6b789;
+}
+
+.task-action-delete {
+    background-color: #feacbd;
 }

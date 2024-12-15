@@ -1,21 +1,36 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { add } from './todo-list';
+import { fetch_tasks } from "./actions/loading-tasks";
+import { post_task } from "./actions/post-task";
+import { delete_task } from "./actions/delete-task";
+import { toggle_task_status } from './todo-list';
 
 import './Home.css';
 
 function Home() {
-    const [taskName, setTaskName] = useState(''); // Локальное состояние для текста задачи
-    const tasks = useSelector((state) => state.todo_list.tasks || []); // Достаем задачи из состояния
+    const [taskName, setTaskName] = useState('');
+    const { tasks, loading, error } = useSelector((state) => state.todo_list);
     const dispatch = useDispatch();
+
+    useEffect(() => {
+        dispatch(fetch_tasks());
+    }, [dispatch]);
 
     const handleSubmit = (e) => {
         e.preventDefault();
 
         if (taskName.trim()) {
-            dispatch(add(taskName));
+            dispatch(post_task(taskName));
             setTaskName('');
         }
+    };
+
+    const toggle_task_status_button = (id) => {
+        dispatch(toggle_task_status(id));
+    };
+
+    const delete_task_button = (id) => {
+        dispatch(delete_task(id));
     };
 
     return (
@@ -25,14 +40,24 @@ function Home() {
                 <button className='item' type="submit">Add</button>
             </form>
             <hr/>
-            <div className='container-tasks'>
-                {tasks.map((task, index) => (
-                    <div className='task' key={index}>
-                        <span className='task-text'>{task.name}</span>
-                    </div>
-                ))}
-            </div>
-            <p className='task-counter'>Всего: {tasks.length}</p>
+            {loading ? (
+                <p>Загрузка...</p>
+            ) : error ? (
+                <p>Ошибка: {error}</p>
+            ) : (
+                <div className="container-tasks">
+                    {tasks.map((task) => (
+                        <div className="task" key={task.id}>
+                            <span className="task-text" style={{textDecoration: task.completed ? 'line-through' : 'none'}}>{task.title}</span>
+                            <button onClick={() => toggle_task_status_button(task.id)} className='task-action-status'>
+                                {task.completed ? 'Undone' : 'Done'}
+                            </button>
+                            <button onClick={() => delete_task_button(task.id)} className='task-action-delete'>Delete</button>
+                        </div>
+                    ))}
+                </div>
+            )}
+            <p className="task-counter">Всего: {tasks.length}</p>
         </div>
     );
 }
