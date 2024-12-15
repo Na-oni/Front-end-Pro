@@ -1,3 +1,6 @@
 cd main
 npm install
 npm start
+
+cd main
+npm start
