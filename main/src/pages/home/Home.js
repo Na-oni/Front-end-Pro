@@ -34,30 +34,37 @@ function Home() {
     };
 
     return (
-        <div className="main-container">
-            <form className='form-group' onSubmit={handleSubmit}>
-                <input className='item' name="task" type="text" value={taskName} onChange={(e) => setTaskName(e.target.value)}/>
-                <button className='item' type="submit">Add</button>
-            </form>
-            <hr/>
-            {loading ? (
-                <p>Загрузка...</p>
-            ) : error ? (
-                <p>Ошибка: {error}</p>
-            ) : (
-                <div className="container-tasks">
-                    {tasks.map((task) => (
-                        <div className="task" key={task.id}>
-                            <span className="task-text" style={{textDecoration: task.completed ? 'line-through' : 'none'}}>{task.title}</span>
-                            <button onClick={() => toggle_task_status_button(task.id)} className='task-action-status'>
-                                {task.completed ? 'Undone' : 'Done'}
-                            </button>
-                            <button onClick={() => delete_task_button(task.id)} className='task-action-delete'>Delete</button>
-                        </div>
-                    ))}
-                </div>
-            )}
-            <p className="task-counter">Всего: {tasks.length}</p>
+        <div className="container">
+            <div className="main-container">
+                <form className='form-group' onSubmit={handleSubmit}>
+                    <input className='item' name="task" type="text" value={taskName}
+                           onChange={(e) => setTaskName(e.target.value)}/>
+                    <button className='item' type="submit">Add</button>
+                </form>
+                <hr/>
+                {loading ? (
+                    <p>Загрузка...</p>
+                ) : error ? (
+                    <p>Ошибка: {error}</p>
+                ) : (
+                    <div className="container-tasks">
+                        {tasks.map((task) => (
+                            <div className="task" key={task.id}>
+                                <span className="task-text"
+                                      style={{textDecoration: task.completed ? 'line-through' : 'none'}}>{task.title}</span>
+                                <button onClick={() => toggle_task_status_button(task.id)}
+                                        className='task-action-status'>
+                                    {task.completed ? 'Undone' : 'Done'}
+                                </button>
+                                <button onClick={() => delete_task_button(task.id)}
+                                        className='task-action-delete'>Delete
+                                </button>
+                            </div>
+                        ))}
+                    </div>
+                )}
+                <p className="task-counter">Всего: {tasks.length}</p>
+            </div>
         </div>
     );
 }
