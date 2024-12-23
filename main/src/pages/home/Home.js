@@ -41,31 +41,33 @@ function Home() {
     };
 
     return (
-        <div className="main-container">
-            <h1>To-Do List</h1>
-            <div className="input-container">
-                <input
-                    type="text"
-                    value={newTodo}
-                    onChange={(e) => setNewTodo(e.target.value)}
-                    placeholder="Add a new task"
-                />
-                <button onClick={handleAddTodo}>Add</button>
-            </div>
+        <div className="container">
+            <div className="main-container">
+                <h1>To-Do List</h1>
+                <div className="input-container">
+                    <input
+                        type="text"
+                        value={newTodo}
+                        onChange={(e) => setNewTodo(e.target.value)}
+                        placeholder="Add a new task"
+                    />
+                    <button onClick={handleAddTodo}>Add</button>
+                </div>
 
-            <ul className="task-list">
-                {todos.map((todo, index) => (
-                    <li key={index} className={todo.completed ? 'completed' : ''}>
-                        <span onClick={() => handleToggleTodo(index)}>{todo.text}</span>
-                        <button
-                            className="delete-button"
-                            onClick={() => handleDeleteTodo(index)}
-                        >
-                            Delete
-                        </button>
-                    </li>
-                ))}
-            </ul>
+                <ul className="task-list">
+                    {todos.map((todo, index) => (
+                        <li key={index} className={todo.completed ? 'completed' : ''}>
+                            <span onClick={() => handleToggleTodo(index)}>{todo.text}</span>
+                            <button
+                                className="delete-button"
+                                onClick={() => handleDeleteTodo(index)}
+                            >
+                                Delete
+                            </button>
+                        </li>
+                    ))}
+                </ul>
+            </div>
         </div>
     );
 }

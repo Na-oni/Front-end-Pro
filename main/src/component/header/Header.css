@@ -20,6 +20,8 @@ header .item {
 
 	align-items: center;
 	padding: 0 32px;
+
+	text-decoration: none;
 }
 
 header .item a {
