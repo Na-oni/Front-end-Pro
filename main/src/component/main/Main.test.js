@@ -45,20 +45,16 @@ describe('TODO App', () => {
     test('should render task and delete it', () => {
         render(<Main />);
 
-        // Добавляем задачу
         const input = screen.getByPlaceholderText(/Enter a task/i);
         fireEvent.change(input, { target: { value: 'Task to remove' } });
         const addButton = screen.getByText(/Add Task/i);
         fireEvent.click(addButton);
 
-        // Проверяем, что задача отобразилась
         expect(screen.getByText('Task to remove')).toBeInTheDocument();
 
-        // Находим кнопку Delete и нажимаем
         const deleteButton = screen.getByText(/Delete/i);
         fireEvent.click(deleteButton);
 
-        // Проверяем, что задача была удалена
         expect(screen.queryByText('Task to remove')).not.toBeInTheDocument();
     });
 });
