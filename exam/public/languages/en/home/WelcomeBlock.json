@@ -1,0 +1,23 @@
+{
+  "title": "Welcome to Booking.com!",
+  "text": "We are glad that you have chosen our site to find the perfect place for your vacation or business trip. On our site, you will find millions of hotels, apartments, houses, and other accommodation options around the world. To help you find exactly what you need, we offer:",
+  "listItems": [
+    {
+      "title": "Convenient Search",
+      "description": "Our form on the homepage will help you quickly find available options based on key parameters such as city, dates, number of guests, and others."
+    },
+    {
+      "title": "Recommendations",
+      "description": "We will select the best offers for you based on your preferences and previous requests (if any)."
+    },
+    {
+      "title": "Verified Reviews",
+      "description": "Ratings and reviews from real guests will help you choose the best place to stay."
+    },
+    {
+      "title": "Flexible Booking Conditions",
+      "description": "Easily modify or cancel bookings if necessary."
+    }
+  ],
+  "footer": "Start searching now and find the perfect place for your next trip!"
+}

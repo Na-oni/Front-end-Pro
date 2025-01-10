@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mali:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+:root {
+    --font-family: Inter, Roboto, Mali;
+
+    --background-color-header: rgb(39, 39, 42);
+    --text-color-header: rgb(213, 213, 216);
+    --text-color-header-hover: rgb(147, 149, 151);
+
+    --background-color-body: rgb(213, 213, 216);
+    /*--background-color-body: rgb(200, 200, 210);*/
+    --button-red: rgb(223, 63, 50);
+    --button-green: rgb(63, 223, 50);
+
+    --background-color-container: #f8f8ff;
+    --text-color-menu: rgb(60, 63, 65);
+    --text-color-main: #f8f8ff;
+
+    /*--background-color-body: #333333;*/
+    --new-color-background: RGB(60, 63, 65);
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+body {
+    background-color: var(--background-color-body);
+    font-family: var(--font-family), serif;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    margin: 0 6rem;
+}
+

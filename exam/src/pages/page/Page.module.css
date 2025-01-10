@@ -1,0 +1,83 @@
+main .container {
+    margin: 20px auto !important;
+    max-width: 1600px;
+}
+
+.page {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.page img {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    width: 540px;
+}
+
+.page .info {
+    padding: 16px;
+    background-color: #fff;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: start;
+}
+
+.page .title {
+    margin: 0 0 16px 0;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.page .name {
+    margin: 0 0 16px 0;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.page .rating {
+    font-size: 20px;
+    color: gold;
+}
+
+.page .location {
+    margin: 0 0 16px 0;
+    font-size: 14px;
+    color: #777;
+}
+
+.page .description {
+    margin: 0 0 16px 0;
+    font-size: 16px;
+    color: #777;
+}
+
+.page .card_amenities {
+    margin: 0 0 16px 0;
+    display: flex;
+    gap: 8px;
+}
+
+.page .card_amenity {
+    background-color: #f0f0f0;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.page .price {
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0;
+}

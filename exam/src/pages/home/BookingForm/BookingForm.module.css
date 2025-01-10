@@ -1,0 +1,85 @@
+main .title {
+    text-align: center;
+    font-weight: 800;
+    font-size: 30px;
+    margin: 32px 0;
+}
+
+.form {
+    margin-bottom: 32px;
+}
+
+.form_row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    justify-items: stretch; /* горизонтальное выравнивание */
+    align-items: center;   /* вертикальное выравнивание */
+
+    justify-content: stretch; /* распределение сетки по горизонтали */
+    align-content: center;        /* распределение сетки по вертикали */
+
+    gap: 16px;
+
+    margin-bottom: 10px;
+}
+
+.form_group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.form_control {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid var(--text-color-header-hover);
+    border-radius: 6px;
+}
+
+.form_control:focus {
+    border: 1px solid var(--button-green);
+    outline: none;
+}
+
+.btn_submit {
+    border: 1px solid var(--button-red);
+    background-color: white;
+    color: var(--button-red);
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 6px;
+    width: 100%;
+}
+
+.btn_submit:hover {
+    border: 1px solid var(--button-green);
+    background-color: white;
+    color: var(--button-green);
+}
+
+.error {
+    color: var(--button-red);
+    font-size: 12px;
+    margin-top: 6px;
+}
+
+@media (max-width: 768px) {
+    .form-row {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+}

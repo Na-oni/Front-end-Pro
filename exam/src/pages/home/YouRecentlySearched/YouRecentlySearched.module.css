@@ -1,0 +1,67 @@
+
+.you_recently_searched {
+    margin-bottom: 32px;
+}
+
+.you_recently_searched .title {
+    text-align: center;
+    margin: 0 0 16px 0;
+    font-size: 26px;
+}
+
+.you_recently_searched .you_recently_searched_div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    justify-items: stretch; /* горизонтальное выравнивание */
+    align-items: center;   /* вертикальное выравнивание */
+
+    justify-content: stretch; /* распределение сетки по горизонтали */
+    align-content: center;        /* распределение сетки по вертикали */
+
+    gap: 16px;
+}
+
+.you_recently_searched .item {
+    background-color: var(--background-color-container);
+    border-radius: 6px;
+    padding: 16px;
+
+    display: grid;
+    grid-template-columns: 64px 1fr;
+
+    justify-items: center; /* горизонтальное выравнивание */
+    align-items: center;   /* вертикальное выравнивание */
+
+    justify-content: center; /* распределение сетки по горизонтали */
+    align-content: center;        /* распределение сетки по вертикали */
+
+    gap: 16px;
+}
+
+.you_recently_searched .item .img {
+
+}
+
+.you_recently_searched .item .img img {
+    border-radius: 6px;
+    width: 64px;
+}
+
+.you_recently_searched .item .text {
+    display: grid;
+    gap: 8px;
+}
+
+.you_recently_searched .item .text .city {
+    font-weight: 600;
+}
+
+.you_recently_searched .item .text .remainder {
+    font-weight: 300;
+}
+
+.you_recently_searched .item .text p {
+    font-size: 14px;
+    margin: 0;
+}

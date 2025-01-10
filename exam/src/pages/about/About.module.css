@@ -1,0 +1,41 @@
+main .container {
+    background-color: var(--background-color-container);
+    margin-top: 32px;
+    padding: 28px;
+
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+main .about_menu {
+    display: flex;
+
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+    align-self: stretch;
+}
+main .about_menu .item {
+    padding: 8px 16px;
+    text-align: left;
+}
+main .about_menu button {
+    all: unset;
+}
+
+main .about_content p {
+    margin: 0 0 16px 0;
+}
+
+main .title {
+    font-size: 20px;
+    font-weight: 800;
+}
+main .subtitle {
+    font-size: 18px;
+    font-weight: 700;
+}
+main .text {
+    font-size: 16px;
+}

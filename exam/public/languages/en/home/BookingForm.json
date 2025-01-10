@@ -1,0 +1,29 @@
+{
+  "title": {
+    "label": "Find lodging for your new trip"
+  },
+  "textCity": {
+    "label": "City",
+    "error": "Select a city"
+  },
+  "startDate": {
+    "label": "Start Date",
+    "error": "Select a start date for the reservation",
+    "minError": "The start date cannot be earlier than today"
+  },
+  "endDate": {
+    "label": "End Date",
+    "error": "Select an end date for the reservation",
+    "minError": "The end date must be later than the start date"
+  },
+  "adults": {
+    "label": "Adults",
+    "error": "The number of adults must be at least 1"
+  },
+  "children": {
+    "label": "Children",
+    "error": "The number of children cannot be negative"
+  },
+  "submitButton": "Find",
+  "loading": "Loading..."
+}

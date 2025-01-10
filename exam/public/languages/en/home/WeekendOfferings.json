@@ -1,0 +1,14 @@
+{
+  "title": "Weekend Offers",
+  "hotel": {
+    "name": "Hotel Name",
+    "location": "Location",
+    "description": "Description",
+    "amenities": "Amenities",
+    "rating": "Rating",
+    "price": "From",
+    "night": "per night",
+    "link": "Visit Website"
+  },
+  "loading": "Loading..."
+}

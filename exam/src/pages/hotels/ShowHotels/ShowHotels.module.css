@@ -1,0 +1,94 @@
+.hotels button {
+    all: unset;
+}
+
+.hotels a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.hotels .title {
+    text-align: center;
+    margin: 0 0 16px 0;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.hotels .list {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 16px;
+}
+
+.hotels .card {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 240px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hotels .card:hover {
+    transform: translateY(-4px);
+}
+
+
+.hotels img {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    width: 240px;
+}
+
+.hotels .info {
+    padding: 16px;
+    background-color: #fff;
+}
+
+.hotels .name {
+    margin: 0 0 16px 0;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.hotels .rating {
+    font-size: 20px;
+    color: gold;
+}
+
+.hotels .location {
+    margin: 0 0 16px 0;
+    font-size: 14px;
+    color: #777;
+}
+
+.hotels .description {
+    margin: 0 0 16px 0;
+    font-size: 16px;
+    color: #777;
+}
+
+.hotels .card_amenities {
+    margin: 0 0 16px 0;
+    display: flex;
+    gap: 8px;
+}
+
+.hotels .card_amenity {
+    background-color: #f0f0f0;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.hotels .price {
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0;
+}

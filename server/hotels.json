@@ -1,0 +1,2762 @@
+[
+  {
+    "id": "1",
+    "name": "Отель Черновцы",
+    "location": {
+      "city": "Черновцы",
+      "region": "Черновицкая область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Черновцы, с удобствами для всех типов путешественников.",
+    "rating": 3.9,
+    "price_per_night": 2408,
+    "amenities": [
+      "Тренажерный зал",
+      "Бесплатный Wi-Fi",
+      "Кондиционер"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/280190048.jpg?k=0ec8ebc292a63ebf0d5553bc38d79e62924c88d7b63570c971cd08673591a4e9&o=",
+    "contact_info": {
+      "phone": "+380680517555",
+      "email": "contact999@hotelчерновцы.com",
+      "website": "https://hotelчерновцы.com"
+    }
+  },
+  {
+    "id": "2",
+    "name": "Отель Запорожье",
+    "location": {
+      "city": "Запорожье",
+      "region": "Запорожская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Запорожье, с удобствами для всех типов путешественников.",
+    "rating": 4.9,
+    "price_per_night": 2763,
+    "amenities": [
+      "Бесплатный Wi-Fi",
+      "Бассейн",
+      "Кофейня"
+    ],
+    "photo": "https://media-cdn.tripadvisor.com/media/photo-s/04/cc/b3/29/caption.jpg",
+    "contact_info": {
+      "phone": "+380735065870",
+      "email": "contact333@hotelзапорожье.com",
+      "website": "https://hotelзапорожье.com"
+    }
+  },
+  {
+    "id": "3",
+    "name": "Отель Запорожье",
+    "location": {
+      "city": "Запорожье",
+      "region": "Запорожская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Запорожье, с удобствами для всех типов путешественников.",
+    "rating": 4.8,
+    "price_per_night": 1624,
+    "amenities": [
+      "Бар",
+      "Тренажерный зал",
+      "Бассейн"
+    ],
+    "photo": "https://media-cdn.tripadvisor.com/media/photo-s/04/cc/b3/29/caption.jpg",
+    "contact_info": {
+      "phone": "+380336324529",
+      "email": "contact109@hotelзапорожье.com",
+      "website": "https://hotelзапорожье.com"
+    }
+  },
+  {
+    "id": "4",
+    "name": "Отель Полтава",
+    "location": {
+      "city": "Полтава",
+      "region": "Полтавская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Полтава, с удобствами для всех типов путешественников.",
+    "rating": 4,
+    "price_per_night": 2428,
+    "amenities": [
+      "Тренажерный зал",
+      "Бар",
+      "Кофейня"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/45593564.jpg?k=cb22d92e7f4455b6d3730840ee1172615699807c08cd53091dc1dd1ecd3c6fde&o=",
+    "contact_info": {
+      "phone": "+380724170388",
+      "email": "contact238@hotelполтава.com",
+      "website": "https://hotelполтава.com"
+    }
+  },
+  {
+    "id": "5",
+    "name": "Отель Харьков",
+    "location": {
+      "city": "Харьков",
+      "region": "Харьковская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Харьков, с удобствами для всех типов путешественников.",
+    "rating": 4.2,
+    "price_per_night": 1536,
+    "amenities": [
+      "Спа-салон",
+      "Тренажерный зал",
+      "Кондиционер"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/331285961.jpg?k=d5fae5ff857d80cb08007114cf9f5b0f9f963b07ebf3c4e6b375426b0c98e14d&o=",
+    "contact_info": {
+      "phone": "+380963900494",
+      "email": "contact316@hotelхарьков.com",
+      "website": "https://hotelхарьков.com"
+    }
+  },
+  {
+    "id": "6",
+    "name": "Отель Киев",
+    "location": {
+      "city": "Киев",
+      "region": "Киевская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Киев, с удобствами для всех типов путешественников.",
+    "rating": 3.7,
+    "price_per_night": 710,
+    "amenities": [
+      "Парковка",
+      "Тренажерный зал",
+      "Бассейн"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/245243036.jpg?k=05608b49fe4780d5b1e18d6c574701739359f5b1321c3aaf45272248c96f36d4&o=&hp=1",
+    "contact_info": {
+      "phone": "+380676810468",
+      "email": "contact145@hotelкиев.com",
+      "website": "https://hotelкиев.com"
+    }
+  },
+  {
+    "id": "7",
+    "name": "Отель Полтава",
+    "location": {
+      "city": "Полтава",
+      "region": "Полтавская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Полтава, с удобствами для всех типов путешественников.",
+    "rating": 4.4,
+    "price_per_night": 2590,
+    "amenities": [
+      "Бар",
+      "Кофейня",
+      "Кондиционер"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/45593564.jpg?k=cb22d92e7f4455b6d3730840ee1172615699807c08cd53091dc1dd1ecd3c6fde&o=",
+    "contact_info": {
+      "phone": "+380358464349",
+      "email": "contact424@hotelполтава.com",
+      "website": "https://hotelполтава.com"
+    }
+  },
+  {
+    "id": "8",
+    "name": "Отель Одесса",
+    "location": {
+      "city": "Одесса",
+      "region": "Одесская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Одесса, с удобствами для всех типов путешественников.",
+    "rating": 4.4,
+    "price_per_night": 940,
+    "amenities": [
+      "Бар",
+      "Ресторан",
+      "Парковка"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/375907040.jpg?k=7872f3195a194a7735bf91173a598c2ff7f62597e5f9b992a48028dc5ca4943a&o=",
+    "contact_info": {
+      "phone": "+380986082434",
+      "email": "contact683@hotelодесса.com",
+      "website": "https://hotelодесса.com"
+    }
+  },
+  {
+    "id": "9",
+    "name": "Отель Хмельницкий",
+    "location": {
+      "city": "Хмельницкий",
+      "region": "Хмельницкая область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Хмельницкий, с удобствами для всех типов путешественников.",
+    "rating": 3.9,
+    "price_per_night": 2997,
+    "amenities": [
+      "Бесплатный Wi-Fi",
+      "Кондиционер",
+      "Бар"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/608876116.jpg?k=ee25cf9b96c0bd9e9c12fc2d28268fed7aff9301e70b7ac6585bbb5ca4c82cd3&o=",
+    "contact_info": {
+      "phone": "+380899638880",
+      "email": "contact500@hotelхмельницкий.com",
+      "website": "https://hotelхмельницкий.com"
+    }
+  },
+  {
+    "id": "10",
+    "name": "Отель Хмельницкий",
+    "location": {
+      "city": "Хмельницкий",
+      "region": "Хмельницкая область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Хмельницкий, с удобствами для всех типов путешественников.",
+    "rating": 4.2,
+    "price_per_night": 2352,
+    "amenities": [
+      "Бесплатный Wi-Fi",
+      "Кондиционер",
+      "Кофейня"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/608876116.jpg?k=ee25cf9b96c0bd9e9c12fc2d28268fed7aff9301e70b7ac6585bbb5ca4c82cd3&o=",
+    "contact_info": {
+      "phone": "+380249391513",
+      "email": "contact261@hotelхмельницкий.com",
+      "website": "https://hotelхмельницкий.com"
+    }
+  },
+  {
+    "id": "11",
+    "name": "Отель Днепр",
+    "location": {
+      "city": "Днепр",
+      "region": "Днепропетровская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Днепр, с удобствами для всех типов путешественников.",
+    "rating": 4.1,
+    "price_per_night": 558,
+    "amenities": [
+      "Кофейня",
+      "Парковка",
+      "Бар"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/8219815.jpg?k=28dbe47fa4508ebd572dbfe7e8b033d6a7af21565a7d42d7d4c613dc5dd315d1&o=&hp=1",
+    "contact_info": {
+      "phone": "+380962259116",
+      "email": "contact749@hotelднепр.com",
+      "website": "https://hotelднепр.com"
+    }
+  },
+  {
+    "id": "12",
+    "name": "Отель Черновцы",
+    "location": {
+      "city": "Черновцы",
+      "region": "Черновицкая область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Черновцы, с удобствами для всех типов путешественников.",
+    "rating": 4.9,
+    "price_per_night": 1230,
+    "amenities": [
+      "Тренажерный зал",
+      "Ресторан",
+      "Бар"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/280190048.jpg?k=0ec8ebc292a63ebf0d5553bc38d79e62924c88d7b63570c971cd08673591a4e9&o=",
+    "contact_info": {
+      "phone": "+380283434117",
+      "email": "contact653@hotelчерновцы.com",
+      "website": "https://hotelчерновцы.com"
+    }
+  },
+  {
+    "id": "13",
+    "name": "Отель Одесса",
+    "location": {
+      "city": "Одесса",
+      "region": "Одесская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Одесса, с удобствами для всех типов путешественников.",
+    "rating": 4.3,
+    "price_per_night": 2789,
+    "amenities": [
+      "Бесплатный Wi-Fi",
+      "Тренажерный зал",
+      "Бар"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/375907040.jpg?k=7872f3195a194a7735bf91173a598c2ff7f62597e5f9b992a48028dc5ca4943a&o=",
+    "contact_info": {
+      "phone": "+380483788947",
+      "email": "contact760@hotelодесса.com",
+      "website": "https://hotelодесса.com"
+    }
+  },
+  {
+    "id": "14",
+    "name": "Отель Львов",
+    "location": {
+      "city": "Львов",
+      "region": "Львовская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Львов, с удобствами для всех типов путешественников.",
+    "rating": 4,
+    "price_per_night": 545,
+    "amenities": [
+      "Кондиционер",
+      "Бар",
+      "Тренажерный зал"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/185849814.jpg?k=95199563dee67589b66b5d6bd6d4c25d3bf4d617ca19555706e1a47e2d107c64&o=",
+    "contact_info": {
+      "phone": "+380119670638",
+      "email": "contact551@hotelльвов.com",
+      "website": "https://hotelльвов.com"
+    }
+  },
+  {
+    "id": "15",
+    "name": "Отель Хмельницкий",
+    "location": {
+      "city": "Хмельницкий",
+      "region": "Хмельницкая область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Хмельницкий, с удобствами для всех типов путешественников.",
+    "rating": 4.8,
+    "price_per_night": 1903,
+    "amenities": [
+      "Кофейня",
+      "Ресторан",
+      "Спа-салон"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/608876116.jpg?k=ee25cf9b96c0bd9e9c12fc2d28268fed7aff9301e70b7ac6585bbb5ca4c82cd3&o=",
+    "contact_info": {
+      "phone": "+380729823445",
+      "email": "contact791@hotelхмельницкий.com",
+      "website": "https://hotelхмельницкий.com"
+    }
+  },
+  {
+    "id": "16",
+    "name": "Отель Запорожье",
+    "location": {
+      "city": "Запорожье",
+      "region": "Запорожская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Запорожье, с удобствами для всех типов путешественников.",
+    "rating": 3.8,
+    "price_per_night": 1454,
+    "amenities": [
+      "Тренажерный зал",
+      "Ресторан",
+      "Бассейн"
+    ],
+    "photo": "https://media-cdn.tripadvisor.com/media/photo-s/04/cc/b3/29/caption.jpg",
+    "contact_info": {
+      "phone": "+380975330749",
+      "email": "contact383@hotelзапорожье.com",
+      "website": "https://hotelзапорожье.com"
+    }
+  },
+  {
+    "id": "17",
+    "name": "Отель Полтава",
+    "location": {
+      "city": "Полтава",
+      "region": "Полтавская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Полтава, с удобствами для всех типов путешественников.",
+    "rating": 4.7,
+    "price_per_night": 2089,
+    "amenities": [
+      "Бар",
+      "Бесплатный Wi-Fi",
+      "Бассейн"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/45593564.jpg?k=cb22d92e7f4455b6d3730840ee1172615699807c08cd53091dc1dd1ecd3c6fde&o=",
+    "contact_info": {
+      "phone": "+380430611499",
+      "email": "contact902@hotelполтава.com",
+      "website": "https://hotelполтава.com"
+    }
+  },
+  {
+    "id": "18",
+    "name": "Отель Хмельницкий",
+    "location": {
+      "city": "Хмельницкий",
+      "region": "Хмельницкая область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Хмельницкий, с удобствами для всех типов путешественников.",
+    "rating": 3.7,
+    "price_per_night": 689,
+    "amenities": [
+      "Бесплатный Wi-Fi",
+      "Парковка",
+      "Кофейня"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/608876116.jpg?k=ee25cf9b96c0bd9e9c12fc2d28268fed7aff9301e70b7ac6585bbb5ca4c82cd3&o=",
+    "contact_info": {
+      "phone": "+380106275197",
+      "email": "contact538@hotelхмельницкий.com",
+      "website": "https://hotelхмельницкий.com"
+    }
+  },
+  {
+    "id": "19",
+    "name": "Отель Киев",
+    "location": {
+      "city": "Киев",
+      "region": "Киевская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Киев, с удобствами для всех типов путешественников.",
+    "rating": 4.3,
+    "price_per_night": 1741,
+    "amenities": [
+      "Спа-салон",
+      "Тренажерный зал",
+      "Парковка"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/245243036.jpg?k=05608b49fe4780d5b1e18d6c574701739359f5b1321c3aaf45272248c96f36d4&o=&hp=1",
+    "contact_info": {
+      "phone": "+380166797860",
+      "email": "contact871@hotelкиев.com",
+      "website": "https://hotelкиев.com"
+    }
+  },
+  {
+    "id": "20",
+    "name": "Отель Днепр",
+    "location": {
+      "city": "Днепр",
+      "region": "Днепропетровская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Днепр, с удобствами для всех типов путешественников.",
+    "rating": 4.1,
+    "price_per_night": 946,
+    "amenities": [
+      "Спа-салон",
+      "Кондиционер",
+      "Бесплатный Wi-Fi"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/8219815.jpg?k=28dbe47fa4508ebd572dbfe7e8b033d6a7af21565a7d42d7d4c613dc5dd315d1&o=&hp=1",
+    "contact_info": {
+      "phone": "+380251714788",
+      "email": "contact133@hotelднепр.com",
+      "website": "https://hotelднепр.com"
+    }
+  },
+  {
+    "id": "21",
+    "name": "Отель Львов",
+    "location": {
+      "city": "Львов",
+      "region": "Львовская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Львов, с удобствами для всех типов путешественников.",
+    "rating": 4.3,
+    "price_per_night": 754,
+    "amenities": [
+      "Спа-салон",
+      "Ресторан",
+      "Парковка"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/185849814.jpg?k=95199563dee67589b66b5d6bd6d4c25d3bf4d617ca19555706e1a47e2d107c64&o=",
+    "contact_info": {
+      "phone": "+380514529843",
+      "email": "contact836@hotelльвов.com",
+      "website": "https://hotelльвов.com"
+    }
+  },
+  {
+    "id": "22",
+    "name": "Отель Полтава",
+    "location": {
+      "city": "Полтава",
+      "region": "Полтавская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Полтава, с удобствами для всех типов путешественников.",
+    "rating": 4.3,
+    "price_per_night": 709,
+    "amenities": [
+      "Бар",
+      "Парковка",
+      "Спа-салон"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/45593564.jpg?k=cb22d92e7f4455b6d3730840ee1172615699807c08cd53091dc1dd1ecd3c6fde&o=",
+    "contact_info": {
+      "phone": "+380230219618",
+      "email": "contact466@hotelполтава.com",
+      "website": "https://hotelполтава.com"
+    }
+  },
+  {
+    "id": "23",
+    "name": "Отель Днепр",
+    "location": {
+      "city": "Днепр",
+      "region": "Днепропетровская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Днепр, с удобствами для всех типов путешественников.",
+    "rating": 4.3,
+    "price_per_night": 1863,
+    "amenities": [
+      "Ресторан",
+      "Бассейн",
+      "Спа-салон"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/8219815.jpg?k=28dbe47fa4508ebd572dbfe7e8b033d6a7af21565a7d42d7d4c613dc5dd315d1&o=&hp=1",
+    "contact_info": {
+      "phone": "+380599495167",
+      "email": "contact292@hotelднепр.com",
+      "website": "https://hotelднепр.com"
+    }
+  },
+  {
+    "id": "24",
+    "name": "Отель Днепр",
+    "location": {
+      "city": "Днепр",
+      "region": "Днепропетровская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Днепр, с удобствами для всех типов путешественников.",
+    "rating": 4.1,
+    "price_per_night": 2112,
+    "amenities": [
+      "Бесплатный Wi-Fi",
+      "Ресторан",
+      "Кофейня"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/8219815.jpg?k=28dbe47fa4508ebd572dbfe7e8b033d6a7af21565a7d42d7d4c613dc5dd315d1&o=&hp=1",
+    "contact_info": {
+      "phone": "+380684082327",
+      "email": "contact898@hotelднепр.com",
+      "website": "https://hotelднепр.com"
+    }
+  },
+  {
+    "id": "25",
+    "name": "Отель Львов",
+    "location": {
+      "city": "Львов",
+      "region": "Львовская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Львов, с удобствами для всех типов путешественников.",
+    "rating": 4.2,
+    "price_per_night": 998,
+    "amenities": [
+      "Кофейня",
+      "Бесплатный Wi-Fi",
+      "Кондиционер"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/185849814.jpg?k=95199563dee67589b66b5d6bd6d4c25d3bf4d617ca19555706e1a47e2d107c64&o=",
+    "contact_info": {
+      "phone": "+380170420242",
+      "email": "contact775@hotelльвов.com",
+      "website": "https://hotelльвов.com"
+    }
+  },
+  {
+    "id": "26",
+    "name": "Отель Киев",
+    "location": {
+      "city": "Киев",
+      "region": "Киевская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Киев, с удобствами для всех типов путешественников.",
+    "rating": 4.5,
+    "price_per_night": 772,
+    "amenities": [
+      "Кофейня",
+      "Кондиционер",
+      "Тренажерный зал"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/245243036.jpg?k=05608b49fe4780d5b1e18d6c574701739359f5b1321c3aaf45272248c96f36d4&o=&hp=1",
+    "contact_info": {
+      "phone": "+380389124630",
+      "email": "contact481@hotelкиев.com",
+      "website": "https://hotelкиев.com"
+    }
+  },
+  {
+    "id": "27",
+    "name": "Отель Львов",
+    "location": {
+      "city": "Львов",
+      "region": "Львовская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Львов, с удобствами для всех типов путешественников.",
+    "rating": 4.2,
+    "price_per_night": 2855,
+    "amenities": [
+      "Бар",
+      "Кофейня",
+      "Ресторан"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/185849814.jpg?k=95199563dee67589b66b5d6bd6d4c25d3bf4d617ca19555706e1a47e2d107c64&o=",
+    "contact_info": {
+      "phone": "+380250091582",
+      "email": "contact980@hotelльвов.com",
+      "website": "https://hotelльвов.com"
+    }
+  },
+  {
+    "id": "28",
+    "name": "Отель Одесса",
+    "location": {
+      "city": "Одесса",
+      "region": "Одесская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Одесса, с удобствами для всех типов путешественников.",
+    "rating": 3.9,
+    "price_per_night": 2714,
+    "amenities": [
+      "Кондиционер",
+      "Парковка",
+      "Бассейн"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/375907040.jpg?k=7872f3195a194a7735bf91173a598c2ff7f62597e5f9b992a48028dc5ca4943a&o=",
+    "contact_info": {
+      "phone": "+380156557277",
+      "email": "contact511@hotelодесса.com",
+      "website": "https://hotelодесса.com"
+    }
+  },
+  {
+    "id": "29",
+    "name": "Отель Полтава",
+    "location": {
+      "city": "Полтава",
+      "region": "Полтавская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Полтава, с удобствами для всех типов путешественников.",
+    "rating": 3.6,
+    "price_per_night": 2858,
+    "amenities": [
+      "Бассейн",
+      "Бар",
+      "Тренажерный зал"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/45593564.jpg?k=cb22d92e7f4455b6d3730840ee1172615699807c08cd53091dc1dd1ecd3c6fde&o=",
+    "contact_info": {
+      "phone": "+380793727495",
+      "email": "contact842@hotelполтава.com",
+      "website": "https://hotelполтава.com"
+    }
+  },
+  {
+    "id": "30",
+    "name": "Отель Черновцы",
+    "location": {
+      "city": "Черновцы",
+      "region": "Черновицкая область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Черновцы, с удобствами для всех типов путешественников.",
+    "rating": 4.6,
+    "price_per_night": 857,
+    "amenities": [
+      "Бар",
+      "Тренажерный зал",
+      "Кондиционер"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/280190048.jpg?k=0ec8ebc292a63ebf0d5553bc38d79e62924c88d7b63570c971cd08673591a4e9&o=",
+    "contact_info": {
+      "phone": "+380277125832",
+      "email": "contact211@hotelчерновцы.com",
+      "website": "https://hotelчерновцы.com"
+    }
+  },
+  {
+    "id": "31",
+    "name": "Отель Харьков",
+    "location": {
+      "city": "Харьков",
+      "region": "Харьковская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Харьков, с удобствами для всех типов путешественников.",
+    "rating": 4.5,
+    "price_per_night": 546,
+    "amenities": [
+      "Бар",
+      "Кофейня",
+      "Бассейн"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/331285961.jpg?k=d5fae5ff857d80cb08007114cf9f5b0f9f963b07ebf3c4e6b375426b0c98e14d&o=",
+    "contact_info": {
+      "phone": "+380812658863",
+      "email": "contact463@hotelхарьков.com",
+      "website": "https://hotelхарьков.com"
+    }
+  },
+  {
+    "id": "32",
+    "name": "Отель Житомир",
+    "location": {
+      "city": "Житомир",
+      "region": "Житомирская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Житомир, с удобствами для всех типов путешественников.",
+    "rating": 3.6,
+    "price_per_night": 1087,
+    "amenities": [
+      "Бесплатный Wi-Fi",
+      "Парковка",
+      "Ресторан"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/115261011.jpg?k=5fcf62fa9b69a7fdbe0371f64223ccd5606a27b69e33fdb6937b6e951502baff&o=",
+    "contact_info": {
+      "phone": "+380245788465",
+      "email": "contact381@hotelжитомир.com",
+      "website": "https://hotelжитомир.com"
+    }
+  },
+  {
+    "id": "33",
+    "name": "Отель Харьков",
+    "location": {
+      "city": "Харьков",
+      "region": "Харьковская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Харьков, с удобствами для всех типов путешественников.",
+    "rating": 3.7,
+    "price_per_night": 768,
+    "amenities": [
+      "Тренажерный зал",
+      "Кондиционер",
+      "Ресторан"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/331285961.jpg?k=d5fae5ff857d80cb08007114cf9f5b0f9f963b07ebf3c4e6b375426b0c98e14d&o=",
+    "contact_info": {
+      "phone": "+380678928617",
+      "email": "contact975@hotelхарьков.com",
+      "website": "https://hotelхарьков.com"
+    }
+  },
+  {
+    "id": "34",
+    "name": "Отель Одесса",
+    "location": {
+      "city": "Одесса",
+      "region": "Одесская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Одесса, с удобствами для всех типов путешественников.",
+    "rating": 4.5,
+    "price_per_night": 2829,
+    "amenities": [
+      "Бар",
+      "Бесплатный Wi-Fi",
+      "Кофейня"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/375907040.jpg?k=7872f3195a194a7735bf91173a598c2ff7f62597e5f9b992a48028dc5ca4943a&o=",
+    "contact_info": {
+      "phone": "+380454841927",
+      "email": "contact646@hotelодесса.com",
+      "website": "https://hotelодесса.com"
+    }
+  },
+  {
+    "id": "35",
+    "name": "Отель Днепр",
+    "location": {
+      "city": "Днепр",
+      "region": "Днепропетровская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Днепр, с удобствами для всех типов путешественников.",
+    "rating": 3.8,
+    "price_per_night": 1667,
+    "amenities": [
+      "Бесплатный Wi-Fi",
+      "Бар",
+      "Бассейн"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/8219815.jpg?k=28dbe47fa4508ebd572dbfe7e8b033d6a7af21565a7d42d7d4c613dc5dd315d1&o=&hp=1",
+    "contact_info": {
+      "phone": "+380843092153",
+      "email": "contact443@hotelднепр.com",
+      "website": "https://hotelднепр.com"
+    }
+  },
+  {
+    "id": "36",
+    "name": "Отель Харьков",
+    "location": {
+      "city": "Харьков",
+      "region": "Харьковская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Харьков, с удобствами для всех типов путешественников.",
+    "rating": 4.8,
+    "price_per_night": 721,
+    "amenities": [
+      "Бассейн",
+      "Тренажерный зал",
+      "Бесплатный Wi-Fi"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/331285961.jpg?k=d5fae5ff857d80cb08007114cf9f5b0f9f963b07ebf3c4e6b375426b0c98e14d&o=",
+    "contact_info": {
+      "phone": "+380613632166",
+      "email": "contact763@hotelхарьков.com",
+      "website": "https://hotelхарьков.com"
+    }
+  },
+  {
+    "id": "37",
+    "name": "Отель Житомир",
+    "location": {
+      "city": "Житомир",
+      "region": "Житомирская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Житомир, с удобствами для всех типов путешественников.",
+    "rating": 4.6,
+    "price_per_night": 2475,
+    "amenities": [
+      "Бесплатный Wi-Fi",
+      "Парковка",
+      "Тренажерный зал"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/115261011.jpg?k=5fcf62fa9b69a7fdbe0371f64223ccd5606a27b69e33fdb6937b6e951502baff&o=",
+    "contact_info": {
+      "phone": "+380755069436",
+      "email": "contact839@hotelжитомир.com",
+      "website": "https://hotelжитомир.com"
+    }
+  },
+  {
+    "id": "38",
+    "name": "Отель Полтава",
+    "location": {
+      "city": "Полтава",
+      "region": "Полтавская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Полтава, с удобствами для всех типов путешественников.",
+    "rating": 4.5,
+    "price_per_night": 1232,
+    "amenities": [
+      "Спа-салон",
+      "Парковка",
+      "Кофейня"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/45593564.jpg?k=cb22d92e7f4455b6d3730840ee1172615699807c08cd53091dc1dd1ecd3c6fde&o=",
+    "contact_info": {
+      "phone": "+380306214393",
+      "email": "contact776@hotelполтава.com",
+      "website": "https://hotelполтава.com"
+    }
+  },
+  {
+    "id": "39",
+    "name": "Отель Житомир",
+    "location": {
+      "city": "Житомир",
+      "region": "Житомирская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Житомир, с удобствами для всех типов путешественников.",
+    "rating": 4.8,
+    "price_per_night": 1421,
+    "amenities": [
+      "Кондиционер",
+      "Кофейня",
+      "Тренажерный зал"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/115261011.jpg?k=5fcf62fa9b69a7fdbe0371f64223ccd5606a27b69e33fdb6937b6e951502baff&o=",
+    "contact_info": {
+      "phone": "+380755524014",
+      "email": "contact449@hotelжитомир.com",
+      "website": "https://hotelжитомир.com"
+    }
+  },
+  {
+    "id": "40",
+    "name": "Отель Запорожье",
+    "location": {
+      "city": "Запорожье",
+      "region": "Запорожская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Запорожье, с удобствами для всех типов путешественников.",
+    "rating": 4.1,
+    "price_per_night": 2457,
+    "amenities": [
+      "Спа-салон",
+      "Бесплатный Wi-Fi",
+      "Кофейня"
+    ],
+    "photo": "https://media-cdn.tripadvisor.com/media/photo-s/04/cc/b3/29/caption.jpg",
+    "contact_info": {
+      "phone": "+380438255803",
+      "email": "contact998@hotelзапорожье.com",
+      "website": "https://hotelзапорожье.com"
+    }
+  },
+  {
+    "id": "41",
+    "name": "Отель Черновцы",
+    "location": {
+      "city": "Черновцы",
+      "region": "Черновицкая область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Черновцы, с удобствами для всех типов путешественников.",
+    "rating": 4,
+    "price_per_night": 2618,
+    "amenities": [
+      "Тренажерный зал",
+      "Парковка",
+      "Бассейн"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/280190048.jpg?k=0ec8ebc292a63ebf0d5553bc38d79e62924c88d7b63570c971cd08673591a4e9&o=",
+    "contact_info": {
+      "phone": "+380280871728",
+      "email": "contact107@hotelчерновцы.com",
+      "website": "https://hotelчерновцы.com"
+    }
+  },
+  {
+    "id": "42",
+    "name": "Отель Хмельницкий",
+    "location": {
+      "city": "Хмельницкий",
+      "region": "Хмельницкая область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Хмельницкий, с удобствами для всех типов путешественников.",
+    "rating": 4,
+    "price_per_night": 513,
+    "amenities": [
+      "Ресторан",
+      "Тренажерный зал",
+      "Бар"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/608876116.jpg?k=ee25cf9b96c0bd9e9c12fc2d28268fed7aff9301e70b7ac6585bbb5ca4c82cd3&o=",
+    "contact_info": {
+      "phone": "+380857220890",
+      "email": "contact519@hotelхмельницкий.com",
+      "website": "https://hotelхмельницкий.com"
+    }
+  },
+  {
+    "id": "43",
+    "name": "Отель Запорожье",
+    "location": {
+      "city": "Запорожье",
+      "region": "Запорожская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Запорожье, с удобствами для всех типов путешественников.",
+    "rating": 4.3,
+    "price_per_night": 1159,
+    "amenities": [
+      "Парковка",
+      "Спа-салон",
+      "Бар"
+    ],
+    "photo": "https://media-cdn.tripadvisor.com/media/photo-s/04/cc/b3/29/caption.jpg",
+    "contact_info": {
+      "phone": "+380135063125",
+      "email": "contact143@hotelзапорожье.com",
+      "website": "https://hotelзапорожье.com"
+    }
+  },
+  {
+    "id": "44",
+    "name": "Отель Запорожье",
+    "location": {
+      "city": "Запорожье",
+      "region": "Запорожская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Запорожье, с удобствами для всех типов путешественников.",
+    "rating": 3.7,
+    "price_per_night": 2248,
+    "amenities": [
+      "Кофейня",
+      "Тренажерный зал",
+      "Кондиционер"
+    ],
+    "photo": "https://media-cdn.tripadvisor.com/media/photo-s/04/cc/b3/29/caption.jpg",
+    "contact_info": {
+      "phone": "+380286808261",
+      "email": "contact347@hotelзапорожье.com",
+      "website": "https://hotelзапорожье.com"
+    }
+  },
+  {
+    "id": "45",
+    "name": "Отель Днепр",
+    "location": {
+      "city": "Днепр",
+      "region": "Днепропетровская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Днепр, с удобствами для всех типов путешественников.",
+    "rating": 3.8,
+    "price_per_night": 2893,
+    "amenities": [
+      "Тренажерный зал",
+      "Ресторан",
+      "Бесплатный Wi-Fi"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/8219815.jpg?k=28dbe47fa4508ebd572dbfe7e8b033d6a7af21565a7d42d7d4c613dc5dd315d1&o=&hp=1",
+    "contact_info": {
+      "phone": "+380828928231",
+      "email": "contact680@hotelднепр.com",
+      "website": "https://hotelднепр.com"
+    }
+  },
+  {
+    "id": "46",
+    "name": "Отель Черновцы",
+    "location": {
+      "city": "Черновцы",
+      "region": "Черновицкая область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Черновцы, с удобствами для всех типов путешественников.",
+    "rating": 4.4,
+    "price_per_night": 1848,
+    "amenities": [
+      "Спа-салон",
+      "Бассейн",
+      "Парковка"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/280190048.jpg?k=0ec8ebc292a63ebf0d5553bc38d79e62924c88d7b63570c971cd08673591a4e9&o=",
+    "contact_info": {
+      "phone": "+380842815763",
+      "email": "contact458@hotelчерновцы.com",
+      "website": "https://hotelчерновцы.com"
+    }
+  },
+  {
+    "id": "47",
+    "name": "Отель Одесса",
+    "location": {
+      "city": "Одесса",
+      "region": "Одесская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Одесса, с удобствами для всех типов путешественников.",
+    "rating": 3.7,
+    "price_per_night": 2045,
+    "amenities": [
+      "Парковка",
+      "Спа-салон",
+      "Бесплатный Wi-Fi"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/375907040.jpg?k=7872f3195a194a7735bf91173a598c2ff7f62597e5f9b992a48028dc5ca4943a&o=",
+    "contact_info": {
+      "phone": "+380640068890",
+      "email": "contact659@hotelодесса.com",
+      "website": "https://hotelодесса.com"
+    }
+  },
+  {
+    "id": "48",
+    "name": "Отель Запорожье",
+    "location": {
+      "city": "Запорожье",
+      "region": "Запорожская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Запорожье, с удобствами для всех типов путешественников.",
+    "rating": 5,
+    "price_per_night": 2914,
+    "amenities": [
+      "Кофейня",
+      "Тренажерный зал",
+      "Бар"
+    ],
+    "photo": "https://media-cdn.tripadvisor.com/media/photo-s/04/cc/b3/29/caption.jpg",
+    "contact_info": {
+      "phone": "+380779561909",
+      "email": "contact580@hotelзапорожье.com",
+      "website": "https://hotelзапорожье.com"
+    }
+  },
+  {
+    "id": "49",
+    "name": "Отель Харьков",
+    "location": {
+      "city": "Харьков",
+      "region": "Харьковская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Харьков, с удобствами для всех типов путешественников.",
+    "rating": 4.9,
+    "price_per_night": 759,
+    "amenities": [
+      "Бесплатный Wi-Fi",
+      "Бассейн",
+      "Спа-салон"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/331285961.jpg?k=d5fae5ff857d80cb08007114cf9f5b0f9f963b07ebf3c4e6b375426b0c98e14d&o=",
+    "contact_info": {
+      "phone": "+380962113160",
+      "email": "contact499@hotelхарьков.com",
+      "website": "https://hotelхарьков.com"
+    }
+  },
+  {
+    "id": "50",
+    "name": "Отель Житомир",
+    "location": {
+      "city": "Житомир",
+      "region": "Житомирская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Житомир, с удобствами для всех типов путешественников.",
+    "rating": 4.1,
+    "price_per_night": 2801,
+    "amenities": [
+      "Спа-салон",
+      "Кондиционер",
+      "Бассейн"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/115261011.jpg?k=5fcf62fa9b69a7fdbe0371f64223ccd5606a27b69e33fdb6937b6e951502baff&o=",
+    "contact_info": {
+      "phone": "+380419554499",
+      "email": "contact164@hotelжитомир.com",
+      "website": "https://hotelжитомир.com"
+    }
+  },
+  {
+    "id": "51",
+    "name": "Отель Черновцы",
+    "location": {
+      "city": "Черновцы",
+      "region": "Черновицкая область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Черновцы, с удобствами для всех типов путешественников.",
+    "rating": 4.1,
+    "price_per_night": 1098,
+    "amenities": [
+      "Парковка",
+      "Бар",
+      "Тренажерный зал"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/280190048.jpg?k=0ec8ebc292a63ebf0d5553bc38d79e62924c88d7b63570c971cd08673591a4e9&o=",
+    "contact_info": {
+      "phone": "+380242962834",
+      "email": "contact969@hotelчерновцы.com",
+      "website": "https://hotelчерновцы.com"
+    }
+  },
+  {
+    "id": "52",
+    "name": "Отель Хмельницкий",
+    "location": {
+      "city": "Хмельницкий",
+      "region": "Хмельницкая область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Хмельницкий, с удобствами для всех типов путешественников.",
+    "rating": 3.6,
+    "price_per_night": 1094,
+    "amenities": [
+      "Кондиционер",
+      "Спа-салон",
+      "Тренажерный зал"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/608876116.jpg?k=ee25cf9b96c0bd9e9c12fc2d28268fed7aff9301e70b7ac6585bbb5ca4c82cd3&o=",
+    "contact_info": {
+      "phone": "+380808228904",
+      "email": "contact375@hotelхмельницкий.com",
+      "website": "https://hotelхмельницкий.com"
+    }
+  },
+  {
+    "id": "53",
+    "name": "Отель Днепр",
+    "location": {
+      "city": "Днепр",
+      "region": "Днепропетровская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Днепр, с удобствами для всех типов путешественников.",
+    "rating": 3.5,
+    "price_per_night": 1818,
+    "amenities": [
+      "Кофейня",
+      "Бесплатный Wi-Fi",
+      "Ресторан"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/8219815.jpg?k=28dbe47fa4508ebd572dbfe7e8b033d6a7af21565a7d42d7d4c613dc5dd315d1&o=&hp=1",
+    "contact_info": {
+      "phone": "+380238548087",
+      "email": "contact649@hotelднепр.com",
+      "website": "https://hotelднепр.com"
+    }
+  },
+  {
+    "id": "54",
+    "name": "Отель Львов",
+    "location": {
+      "city": "Львов",
+      "region": "Львовская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Львов, с удобствами для всех типов путешественников.",
+    "rating": 3.8,
+    "price_per_night": 2002,
+    "amenities": [
+      "Бар",
+      "Парковка",
+      "Тренажерный зал"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/185849814.jpg?k=95199563dee67589b66b5d6bd6d4c25d3bf4d617ca19555706e1a47e2d107c64&o=",
+    "contact_info": {
+      "phone": "+380176713255",
+      "email": "contact778@hotelльвов.com",
+      "website": "https://hotelльвов.com"
+    }
+  },
+  {
+    "id": "55",
+    "name": "Отель Львов",
+    "location": {
+      "city": "Львов",
+      "region": "Львовская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Львов, с удобствами для всех типов путешественников.",
+    "rating": 3.5,
+    "price_per_night": 1348,
+    "amenities": [
+      "Тренажерный зал",
+      "Бесплатный Wi-Fi",
+      "Парковка"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/185849814.jpg?k=95199563dee67589b66b5d6bd6d4c25d3bf4d617ca19555706e1a47e2d107c64&o=",
+    "contact_info": {
+      "phone": "+380665667362",
+      "email": "contact379@hotelльвов.com",
+      "website": "https://hotelльвов.com"
+    }
+  },
+  {
+    "id": "56",
+    "name": "Отель Киев",
+    "location": {
+      "city": "Киев",
+      "region": "Киевская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Киев, с удобствами для всех типов путешественников.",
+    "rating": 4.5,
+    "price_per_night": 1391,
+    "amenities": [
+      "Спа-салон",
+      "Кофейня",
+      "Бассейн"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/245243036.jpg?k=05608b49fe4780d5b1e18d6c574701739359f5b1321c3aaf45272248c96f36d4&o=&hp=1",
+    "contact_info": {
+      "phone": "+380501924015",
+      "email": "contact287@hotelкиев.com",
+      "website": "https://hotelкиев.com"
+    }
+  },
+  {
+    "id": "57",
+    "name": "Отель Житомир",
+    "location": {
+      "city": "Житомир",
+      "region": "Житомирская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Житомир, с удобствами для всех типов путешественников.",
+    "rating": 4,
+    "price_per_night": 1256,
+    "amenities": [
+      "Бассейн",
+      "Кофейня",
+      "Спа-салон"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/115261011.jpg?k=5fcf62fa9b69a7fdbe0371f64223ccd5606a27b69e33fdb6937b6e951502baff&o=",
+    "contact_info": {
+      "phone": "+380900411105",
+      "email": "contact719@hotelжитомир.com",
+      "website": "https://hotelжитомир.com"
+    }
+  },
+  {
+    "id": "58",
+    "name": "Отель Харьков",
+    "location": {
+      "city": "Харьков",
+      "region": "Харьковская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Харьков, с удобствами для всех типов путешественников.",
+    "rating": 3.7,
+    "price_per_night": 2232,
+    "amenities": [
+      "Бассейн",
+      "Бар",
+      "Кофейня"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/331285961.jpg?k=d5fae5ff857d80cb08007114cf9f5b0f9f963b07ebf3c4e6b375426b0c98e14d&o=",
+    "contact_info": {
+      "phone": "+380493591712",
+      "email": "contact740@hotelхарьков.com",
+      "website": "https://hotelхарьков.com"
+    }
+  },
+  {
+    "id": "59",
+    "name": "Отель Одесса",
+    "location": {
+      "city": "Одесса",
+      "region": "Одесская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Одесса, с удобствами для всех типов путешественников.",
+    "rating": 4.2,
+    "price_per_night": 1329,
+    "amenities": [
+      "Спа-салон",
+      "Бар",
+      "Бассейн"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/375907040.jpg?k=7872f3195a194a7735bf91173a598c2ff7f62597e5f9b992a48028dc5ca4943a&o=",
+    "contact_info": {
+      "phone": "+380722212457",
+      "email": "contact121@hotelодесса.com",
+      "website": "https://hotelодесса.com"
+    }
+  },
+  {
+    "id": "60",
+    "name": "Отель Харьков",
+    "location": {
+      "city": "Харьков",
+      "region": "Харьковская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Харьков, с удобствами для всех типов путешественников.",
+    "rating": 3.7,
+    "price_per_night": 1965,
+    "amenities": [
+      "Бесплатный Wi-Fi",
+      "Кофейня",
+      "Ресторан"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/331285961.jpg?k=d5fae5ff857d80cb08007114cf9f5b0f9f963b07ebf3c4e6b375426b0c98e14d&o=",
+    "contact_info": {
+      "phone": "+380272391514",
+      "email": "contact741@hotelхарьков.com",
+      "website": "https://hotelхарьков.com"
+    }
+  },
+  {
+    "id": "61",
+    "name": "Отель Львов",
+    "location": {
+      "city": "Львов",
+      "region": "Львовская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Львов, с удобствами для всех типов путешественников.",
+    "rating": 4.3,
+    "price_per_night": 1071,
+    "amenities": [
+      "Бесплатный Wi-Fi",
+      "Бассейн",
+      "Кондиционер"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/185849814.jpg?k=95199563dee67589b66b5d6bd6d4c25d3bf4d617ca19555706e1a47e2d107c64&o=",
+    "contact_info": {
+      "phone": "+380352846529",
+      "email": "contact431@hotelльвов.com",
+      "website": "https://hotelльвов.com"
+    }
+  },
+  {
+    "id": "62",
+    "name": "Отель Львов",
+    "location": {
+      "city": "Львов",
+      "region": "Львовская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Львов, с удобствами для всех типов путешественников.",
+    "rating": 4.1,
+    "price_per_night": 2516,
+    "amenities": [
+      "Кондиционер",
+      "Бассейн",
+      "Спа-салон"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/185849814.jpg?k=95199563dee67589b66b5d6bd6d4c25d3bf4d617ca19555706e1a47e2d107c64&o=",
+    "contact_info": {
+      "phone": "+380775439728",
+      "email": "contact887@hotelльвов.com",
+      "website": "https://hotelльвов.com"
+    }
+  },
+  {
+    "id": "63",
+    "name": "Отель Житомир",
+    "location": {
+      "city": "Житомир",
+      "region": "Житомирская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Житомир, с удобствами для всех типов путешественников.",
+    "rating": 4.3,
+    "price_per_night": 2720,
+    "amenities": [
+      "Бассейн",
+      "Ресторан",
+      "Кондиционер"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/115261011.jpg?k=5fcf62fa9b69a7fdbe0371f64223ccd5606a27b69e33fdb6937b6e951502baff&o=",
+    "contact_info": {
+      "phone": "+380288101909",
+      "email": "contact944@hotelжитомир.com",
+      "website": "https://hotelжитомир.com"
+    }
+  },
+  {
+    "id": "64",
+    "name": "Отель Житомир",
+    "location": {
+      "city": "Житомир",
+      "region": "Житомирская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Житомир, с удобствами для всех типов путешественников.",
+    "rating": 4.4,
+    "price_per_night": 2324,
+    "amenities": [
+      "Бар",
+      "Бесплатный Wi-Fi",
+      "Кондиционер"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/115261011.jpg?k=5fcf62fa9b69a7fdbe0371f64223ccd5606a27b69e33fdb6937b6e951502baff&o=",
+    "contact_info": {
+      "phone": "+380656183213",
+      "email": "contact888@hotelжитомир.com",
+      "website": "https://hotelжитомир.com"
+    }
+  },
+  {
+    "id": "65",
+    "name": "Отель Запорожье",
+    "location": {
+      "city": "Запорожье",
+      "region": "Запорожская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Запорожье, с удобствами для всех типов путешественников.",
+    "rating": 4.8,
+    "price_per_night": 1031,
+    "amenities": [
+      "Кондиционер",
+      "Спа-салон",
+      "Тренажерный зал"
+    ],
+    "photo": "https://media-cdn.tripadvisor.com/media/photo-s/04/cc/b3/29/caption.jpg",
+    "contact_info": {
+      "phone": "+380972995982",
+      "email": "contact570@hotelзапорожье.com",
+      "website": "https://hotelзапорожье.com"
+    }
+  },
+  {
+    "id": "66",
+    "name": "Отель Полтава",
+    "location": {
+      "city": "Полтава",
+      "region": "Полтавская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Полтава, с удобствами для всех типов путешественников.",
+    "rating": 4.2,
+    "price_per_night": 772,
+    "amenities": [
+      "Спа-салон",
+      "Бесплатный Wi-Fi",
+      "Ресторан"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/45593564.jpg?k=cb22d92e7f4455b6d3730840ee1172615699807c08cd53091dc1dd1ecd3c6fde&o=",
+    "contact_info": {
+      "phone": "+380870560305",
+      "email": "contact619@hotelполтава.com",
+      "website": "https://hotelполтава.com"
+    }
+  },
+  {
+    "id": "67",
+    "name": "Отель Киев",
+    "location": {
+      "city": "Киев",
+      "region": "Киевская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Киев, с удобствами для всех типов путешественников.",
+    "rating": 3.7,
+    "price_per_night": 2646,
+    "amenities": [
+      "Кондиционер",
+      "Кофейня",
+      "Ресторан"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/245243036.jpg?k=05608b49fe4780d5b1e18d6c574701739359f5b1321c3aaf45272248c96f36d4&o=&hp=1",
+    "contact_info": {
+      "phone": "+380852456470",
+      "email": "contact203@hotelкиев.com",
+      "website": "https://hotelкиев.com"
+    }
+  },
+  {
+    "id": "68",
+    "name": "Отель Киев",
+    "location": {
+      "city": "Киев",
+      "region": "Киевская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Киев, с удобствами для всех типов путешественников.",
+    "rating": 4,
+    "price_per_night": 2468,
+    "amenities": [
+      "Бассейн",
+      "Парковка",
+      "Кондиционер"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/245243036.jpg?k=05608b49fe4780d5b1e18d6c574701739359f5b1321c3aaf45272248c96f36d4&o=&hp=1",
+    "contact_info": {
+      "phone": "+380298518612",
+      "email": "contact559@hotelкиев.com",
+      "website": "https://hotelкиев.com"
+    }
+  },
+  {
+    "id": "69",
+    "name": "Отель Полтава",
+    "location": {
+      "city": "Полтава",
+      "region": "Полтавская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Полтава, с удобствами для всех типов путешественников.",
+    "rating": 3.7,
+    "price_per_night": 1980,
+    "amenities": [
+      "Ресторан",
+      "Тренажерный зал",
+      "Парковка"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/45593564.jpg?k=cb22d92e7f4455b6d3730840ee1172615699807c08cd53091dc1dd1ecd3c6fde&o=",
+    "contact_info": {
+      "phone": "+380779372048",
+      "email": "contact578@hotelполтава.com",
+      "website": "https://hotelполтава.com"
+    }
+  },
+  {
+    "id": "70",
+    "name": "Отель Запорожье",
+    "location": {
+      "city": "Запорожье",
+      "region": "Запорожская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Запорожье, с удобствами для всех типов путешественников.",
+    "rating": 4.4,
+    "price_per_night": 2393,
+    "amenities": [
+      "Парковка",
+      "Тренажерный зал",
+      "Кофейня"
+    ],
+    "photo": "https://media-cdn.tripadvisor.com/media/photo-s/04/cc/b3/29/caption.jpg",
+    "contact_info": {
+      "phone": "+380812491296",
+      "email": "contact487@hotelзапорожье.com",
+      "website": "https://hotelзапорожье.com"
+    }
+  },
+  {
+    "id": "71",
+    "name": "Отель Днепр",
+    "location": {
+      "city": "Днепр",
+      "region": "Днепропетровская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Днепр, с удобствами для всех типов путешественников.",
+    "rating": 3.6,
+    "price_per_night": 1963,
+    "amenities": [
+      "Ресторан",
+      "Парковка",
+      "Кофейня"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/8219815.jpg?k=28dbe47fa4508ebd572dbfe7e8b033d6a7af21565a7d42d7d4c613dc5dd315d1&o=&hp=1",
+    "contact_info": {
+      "phone": "+380791978684",
+      "email": "contact517@hotelднепр.com",
+      "website": "https://hotelднепр.com"
+    }
+  },
+  {
+    "id": "72",
+    "name": "Отель Хмельницкий",
+    "location": {
+      "city": "Хмельницкий",
+      "region": "Хмельницкая область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Хмельницкий, с удобствами для всех типов путешественников.",
+    "rating": 4.2,
+    "price_per_night": 851,
+    "amenities": [
+      "Кондиционер",
+      "Спа-салон",
+      "Бассейн"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/608876116.jpg?k=ee25cf9b96c0bd9e9c12fc2d28268fed7aff9301e70b7ac6585bbb5ca4c82cd3&o=",
+    "contact_info": {
+      "phone": "+380790724099",
+      "email": "contact579@hotelхмельницкий.com",
+      "website": "https://hotelхмельницкий.com"
+    }
+  },
+  {
+    "id": "73",
+    "name": "Отель Харьков",
+    "location": {
+      "city": "Харьков",
+      "region": "Харьковская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Харьков, с удобствами для всех типов путешественников.",
+    "rating": 4,
+    "price_per_night": 910,
+    "amenities": [
+      "Бассейн",
+      "Спа-салон",
+      "Парковка"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/331285961.jpg?k=d5fae5ff857d80cb08007114cf9f5b0f9f963b07ebf3c4e6b375426b0c98e14d&o=",
+    "contact_info": {
+      "phone": "+380739900449",
+      "email": "contact197@hotelхарьков.com",
+      "website": "https://hotelхарьков.com"
+    }
+  },
+  {
+    "id": "74",
+    "name": "Отель Львов",
+    "location": {
+      "city": "Львов",
+      "region": "Львовская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Львов, с удобствами для всех типов путешественников.",
+    "rating": 4.4,
+    "price_per_night": 2806,
+    "amenities": [
+      "Тренажерный зал",
+      "Бассейн",
+      "Ресторан"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/185849814.jpg?k=95199563dee67589b66b5d6bd6d4c25d3bf4d617ca19555706e1a47e2d107c64&o=",
+    "contact_info": {
+      "phone": "+380971561178",
+      "email": "contact216@hotelльвов.com",
+      "website": "https://hotelльвов.com"
+    }
+  },
+  {
+    "id": "75",
+    "name": "Отель Днепр",
+    "location": {
+      "city": "Днепр",
+      "region": "Днепропетровская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Днепр, с удобствами для всех типов путешественников.",
+    "rating": 4.9,
+    "price_per_night": 1041,
+    "amenities": [
+      "Бесплатный Wi-Fi",
+      "Кофейня",
+      "Бар"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/8219815.jpg?k=28dbe47fa4508ebd572dbfe7e8b033d6a7af21565a7d42d7d4c613dc5dd315d1&o=&hp=1",
+    "contact_info": {
+      "phone": "+380305195106",
+      "email": "contact807@hotelднепр.com",
+      "website": "https://hotelднепр.com"
+    }
+  },
+  {
+    "id": "76",
+    "name": "Отель Одесса",
+    "location": {
+      "city": "Одесса",
+      "region": "Одесская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Одесса, с удобствами для всех типов путешественников.",
+    "rating": 3.9,
+    "price_per_night": 1717,
+    "amenities": [
+      "Ресторан",
+      "Спа-салон",
+      "Парковка"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/375907040.jpg?k=7872f3195a194a7735bf91173a598c2ff7f62597e5f9b992a48028dc5ca4943a&o=",
+    "contact_info": {
+      "phone": "+380691575943",
+      "email": "contact777@hotelодесса.com",
+      "website": "https://hotelодесса.com"
+    }
+  },
+  {
+    "id": "77",
+    "name": "Отель Одесса",
+    "location": {
+      "city": "Одесса",
+      "region": "Одесская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Одесса, с удобствами для всех типов путешественников.",
+    "rating": 3.8,
+    "price_per_night": 1643,
+    "amenities": [
+      "Кондиционер",
+      "Парковка",
+      "Тренажерный зал"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/375907040.jpg?k=7872f3195a194a7735bf91173a598c2ff7f62597e5f9b992a48028dc5ca4943a&o=",
+    "contact_info": {
+      "phone": "+380970888177",
+      "email": "contact310@hotelодесса.com",
+      "website": "https://hotelодесса.com"
+    }
+  },
+  {
+    "id": "78",
+    "name": "Отель Одесса",
+    "location": {
+      "city": "Одесса",
+      "region": "Одесская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Одесса, с удобствами для всех типов путешественников.",
+    "rating": 4.6,
+    "price_per_night": 2365,
+    "amenities": [
+      "Бесплатный Wi-Fi",
+      "Бар",
+      "Кофейня"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/375907040.jpg?k=7872f3195a194a7735bf91173a598c2ff7f62597e5f9b992a48028dc5ca4943a&o=",
+    "contact_info": {
+      "phone": "+380222946626",
+      "email": "contact205@hotelодесса.com",
+      "website": "https://hotelодесса.com"
+    }
+  },
+  {
+    "id": "79",
+    "name": "Отель Запорожье",
+    "location": {
+      "city": "Запорожье",
+      "region": "Запорожская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Запорожье, с удобствами для всех типов путешественников.",
+    "rating": 4,
+    "price_per_night": 986,
+    "amenities": [
+      "Кофейня",
+      "Бесплатный Wi-Fi",
+      "Тренажерный зал"
+    ],
+    "photo": "https://media-cdn.tripadvisor.com/media/photo-s/04/cc/b3/29/caption.jpg",
+    "contact_info": {
+      "phone": "+380701665526",
+      "email": "contact126@hotelзапорожье.com",
+      "website": "https://hotelзапорожье.com"
+    }
+  },
+  {
+    "id": "80",
+    "name": "Отель Запорожье",
+    "location": {
+      "city": "Запорожье",
+      "region": "Запорожская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Запорожье, с удобствами для всех типов путешественников.",
+    "rating": 4,
+    "price_per_night": 2088,
+    "amenities": [
+      "Бассейн",
+      "Бар",
+      "Ресторан"
+    ],
+    "photo": "https://media-cdn.tripadvisor.com/media/photo-s/04/cc/b3/29/caption.jpg",
+    "contact_info": {
+      "phone": "+380503944610",
+      "email": "contact886@hotelзапорожье.com",
+      "website": "https://hotelзапорожье.com"
+    }
+  },
+  {
+    "id": "81",
+    "name": "Отель Хмельницкий",
+    "location": {
+      "city": "Хмельницкий",
+      "region": "Хмельницкая область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Хмельницкий, с удобствами для всех типов путешественников.",
+    "rating": 4.7,
+    "price_per_night": 2653,
+    "amenities": [
+      "Кофейня",
+      "Кондиционер",
+      "Бар"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/608876116.jpg?k=ee25cf9b96c0bd9e9c12fc2d28268fed7aff9301e70b7ac6585bbb5ca4c82cd3&o=",
+    "contact_info": {
+      "phone": "+380274352050",
+      "email": "contact380@hotelхмельницкий.com",
+      "website": "https://hotelхмельницкий.com"
+    }
+  },
+  {
+    "id": "82",
+    "name": "Отель Харьков",
+    "location": {
+      "city": "Харьков",
+      "region": "Харьковская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Харьков, с удобствами для всех типов путешественников.",
+    "rating": 4.4,
+    "price_per_night": 1845,
+    "amenities": [
+      "Тренажерный зал",
+      "Ресторан",
+      "Бассейн"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/331285961.jpg?k=d5fae5ff857d80cb08007114cf9f5b0f9f963b07ebf3c4e6b375426b0c98e14d&o=",
+    "contact_info": {
+      "phone": "+380145091843",
+      "email": "contact934@hotelхарьков.com",
+      "website": "https://hotelхарьков.com"
+    }
+  },
+  {
+    "id": "83",
+    "name": "Отель Одесса",
+    "location": {
+      "city": "Одесса",
+      "region": "Одесская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Одесса, с удобствами для всех типов путешественников.",
+    "rating": 3.5,
+    "price_per_night": 2650,
+    "amenities": [
+      "Парковка",
+      "Бесплатный Wi-Fi",
+      "Тренажерный зал"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/375907040.jpg?k=7872f3195a194a7735bf91173a598c2ff7f62597e5f9b992a48028dc5ca4943a&o=",
+    "contact_info": {
+      "phone": "+380929095656",
+      "email": "contact957@hotelодесса.com",
+      "website": "https://hotelодесса.com"
+    }
+  },
+  {
+    "id": "84",
+    "name": "Отель Львов",
+    "location": {
+      "city": "Львов",
+      "region": "Львовская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Львов, с удобствами для всех типов путешественников.",
+    "rating": 4.5,
+    "price_per_night": 2122,
+    "amenities": [
+      "Кофейня",
+      "Кондиционер",
+      "Спа-салон"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/185849814.jpg?k=95199563dee67589b66b5d6bd6d4c25d3bf4d617ca19555706e1a47e2d107c64&o=",
+    "contact_info": {
+      "phone": "+380889310265",
+      "email": "contact681@hotelльвов.com",
+      "website": "https://hotelльвов.com"
+    }
+  },
+  {
+    "id": "85",
+    "name": "Отель Одесса",
+    "location": {
+      "city": "Одесса",
+      "region": "Одесская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Одесса, с удобствами для всех типов путешественников.",
+    "rating": 3.9,
+    "price_per_night": 2239,
+    "amenities": [
+      "Парковка",
+      "Бар",
+      "Тренажерный зал"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/375907040.jpg?k=7872f3195a194a7735bf91173a598c2ff7f62597e5f9b992a48028dc5ca4943a&o=",
+    "contact_info": {
+      "phone": "+380237965234",
+      "email": "contact640@hotelодесса.com",
+      "website": "https://hotelодесса.com"
+    }
+  },
+  {
+    "id": "86",
+    "name": "Отель Днепр",
+    "location": {
+      "city": "Днепр",
+      "region": "Днепропетровская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Днепр, с удобствами для всех типов путешественников.",
+    "rating": 4.5,
+    "price_per_night": 1694,
+    "amenities": [
+      "Кофейня",
+      "Спа-салон",
+      "Бассейн"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/8219815.jpg?k=28dbe47fa4508ebd572dbfe7e8b033d6a7af21565a7d42d7d4c613dc5dd315d1&o=&hp=1",
+    "contact_info": {
+      "phone": "+380471122135",
+      "email": "contact162@hotelднепр.com",
+      "website": "https://hotelднепр.com"
+    }
+  },
+  {
+    "id": "87",
+    "name": "Отель Харьков",
+    "location": {
+      "city": "Харьков",
+      "region": "Харьковская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Харьков, с удобствами для всех типов путешественников.",
+    "rating": 4.1,
+    "price_per_night": 2962,
+    "amenities": [
+      "Кофейня",
+      "Бар",
+      "Бесплатный Wi-Fi"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/331285961.jpg?k=d5fae5ff857d80cb08007114cf9f5b0f9f963b07ebf3c4e6b375426b0c98e14d&o=",
+    "contact_info": {
+      "phone": "+380847546908",
+      "email": "contact453@hotelхарьков.com",
+      "website": "https://hotelхарьков.com"
+    }
+  },
+  {
+    "id": "88",
+    "name": "Отель Одесса",
+    "location": {
+      "city": "Одесса",
+      "region": "Одесская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Одесса, с удобствами для всех типов путешественников.",
+    "rating": 3.5,
+    "price_per_night": 1545,
+    "amenities": [
+      "Спа-салон",
+      "Ресторан",
+      "Бассейн"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/375907040.jpg?k=7872f3195a194a7735bf91173a598c2ff7f62597e5f9b992a48028dc5ca4943a&o=",
+    "contact_info": {
+      "phone": "+380681257166",
+      "email": "contact300@hotelодесса.com",
+      "website": "https://hotelодесса.com"
+    }
+  },
+  {
+    "id": "89",
+    "name": "Отель Черновцы",
+    "location": {
+      "city": "Черновцы",
+      "region": "Черновицкая область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Черновцы, с удобствами для всех типов путешественников.",
+    "rating": 3.9,
+    "price_per_night": 1734,
+    "amenities": [
+      "Ресторан",
+      "Кофейня",
+      "Парковка"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/280190048.jpg?k=0ec8ebc292a63ebf0d5553bc38d79e62924c88d7b63570c971cd08673591a4e9&o=",
+    "contact_info": {
+      "phone": "+380583207216",
+      "email": "contact767@hotelчерновцы.com",
+      "website": "https://hotelчерновцы.com"
+    }
+  },
+  {
+    "id": "90",
+    "name": "Отель Львов",
+    "location": {
+      "city": "Львов",
+      "region": "Львовская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Львов, с удобствами для всех типов путешественников.",
+    "rating": 3.6,
+    "price_per_night": 2700,
+    "amenities": [
+      "Кофейня",
+      "Тренажерный зал",
+      "Парковка"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/185849814.jpg?k=95199563dee67589b66b5d6bd6d4c25d3bf4d617ca19555706e1a47e2d107c64&o=",
+    "contact_info": {
+      "phone": "+380725713743",
+      "email": "contact940@hotelльвов.com",
+      "website": "https://hotelльвов.com"
+    }
+  },
+  {
+    "id": "91",
+    "name": "Отель Киев",
+    "location": {
+      "city": "Киев",
+      "region": "Киевская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Киев, с удобствами для всех типов путешественников.",
+    "rating": 4.3,
+    "price_per_night": 1304,
+    "amenities": [
+      "Кофейня",
+      "Кондиционер",
+      "Парковка"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/245243036.jpg?k=05608b49fe4780d5b1e18d6c574701739359f5b1321c3aaf45272248c96f36d4&o=&hp=1",
+    "contact_info": {
+      "phone": "+380468724678",
+      "email": "contact423@hotelкиев.com",
+      "website": "https://hotelкиев.com"
+    }
+  },
+  {
+    "id": "92",
+    "name": "Отель Полтава",
+    "location": {
+      "city": "Полтава",
+      "region": "Полтавская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Полтава, с удобствами для всех типов путешественников.",
+    "rating": 3.5,
+    "price_per_night": 1478,
+    "amenities": [
+      "Кофейня",
+      "Парковка",
+      "Бар"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/45593564.jpg?k=cb22d92e7f4455b6d3730840ee1172615699807c08cd53091dc1dd1ecd3c6fde&o=",
+    "contact_info": {
+      "phone": "+380197703629",
+      "email": "contact413@hotelполтава.com",
+      "website": "https://hotelполтава.com"
+    }
+  },
+  {
+    "id": "93",
+    "name": "Отель Киев",
+    "location": {
+      "city": "Киев",
+      "region": "Киевская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Киев, с удобствами для всех типов путешественников.",
+    "rating": 4.7,
+    "price_per_night": 1822,
+    "amenities": [
+      "Кофейня",
+      "Кондиционер",
+      "Бар"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/245243036.jpg?k=05608b49fe4780d5b1e18d6c574701739359f5b1321c3aaf45272248c96f36d4&o=&hp=1",
+    "contact_info": {
+      "phone": "+380905540102",
+      "email": "contact534@hotelкиев.com",
+      "website": "https://hotelкиев.com"
+    }
+  },
+  {
+    "id": "94",
+    "name": "Отель Львов",
+    "location": {
+      "city": "Львов",
+      "region": "Львовская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Львов, с удобствами для всех типов путешественников.",
+    "rating": 3.5,
+    "price_per_night": 1913,
+    "amenities": [
+      "Ресторан",
+      "Кофейня",
+      "Тренажерный зал"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/185849814.jpg?k=95199563dee67589b66b5d6bd6d4c25d3bf4d617ca19555706e1a47e2d107c64&o=",
+    "contact_info": {
+      "phone": "+380693770086",
+      "email": "contact458@hotelльвов.com",
+      "website": "https://hotelльвов.com"
+    }
+  },
+  {
+    "id": "95",
+    "name": "Отель Черновцы",
+    "location": {
+      "city": "Черновцы",
+      "region": "Черновицкая область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Черновцы, с удобствами для всех типов путешественников.",
+    "rating": 4.2,
+    "price_per_night": 1205,
+    "amenities": [
+      "Ресторан",
+      "Бар",
+      "Тренажерный зал"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/280190048.jpg?k=0ec8ebc292a63ebf0d5553bc38d79e62924c88d7b63570c971cd08673591a4e9&o=",
+    "contact_info": {
+      "phone": "+380631537426",
+      "email": "contact908@hotelчерновцы.com",
+      "website": "https://hotelчерновцы.com"
+    }
+  },
+  {
+    "id": "96",
+    "name": "Отель Житомир",
+    "location": {
+      "city": "Житомир",
+      "region": "Житомирская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Житомир, с удобствами для всех типов путешественников.",
+    "rating": 4.4,
+    "price_per_night": 2848,
+    "amenities": [
+      "Тренажерный зал",
+      "Ресторан",
+      "Кофейня"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/115261011.jpg?k=5fcf62fa9b69a7fdbe0371f64223ccd5606a27b69e33fdb6937b6e951502baff&o=",
+    "contact_info": {
+      "phone": "+380876877985",
+      "email": "contact295@hotelжитомир.com",
+      "website": "https://hotelжитомир.com"
+    }
+  },
+  {
+    "id": "97",
+    "name": "Отель Днепр",
+    "location": {
+      "city": "Днепр",
+      "region": "Днепропетровская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Днепр, с удобствами для всех типов путешественников.",
+    "rating": 4.3,
+    "price_per_night": 2450,
+    "amenities": [
+      "Бассейн",
+      "Кондиционер",
+      "Бар"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/8219815.jpg?k=28dbe47fa4508ebd572dbfe7e8b033d6a7af21565a7d42d7d4c613dc5dd315d1&o=&hp=1",
+    "contact_info": {
+      "phone": "+380887567460",
+      "email": "contact705@hotelднепр.com",
+      "website": "https://hotelднепр.com"
+    }
+  },
+  {
+    "id": "98",
+    "name": "Отель Киев",
+    "location": {
+      "city": "Киев",
+      "region": "Киевская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Киев, с удобствами для всех типов путешественников.",
+    "rating": 4,
+    "price_per_night": 2903,
+    "amenities": [
+      "Кофейня",
+      "Парковка",
+      "Спа-салон"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/245243036.jpg?k=05608b49fe4780d5b1e18d6c574701739359f5b1321c3aaf45272248c96f36d4&o=&hp=1",
+    "contact_info": {
+      "phone": "+380716153310",
+      "email": "contact281@hotelкиев.com",
+      "website": "https://hotelкиев.com"
+    }
+  },
+  {
+    "id": "99",
+    "name": "Отель Одесса",
+    "location": {
+      "city": "Одесса",
+      "region": "Одесская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Одесса, с удобствами для всех типов путешественников.",
+    "rating": 4.1,
+    "price_per_night": 762,
+    "amenities": [
+      "Ресторан",
+      "Спа-салон",
+      "Бассейн"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/375907040.jpg?k=7872f3195a194a7735bf91173a598c2ff7f62597e5f9b992a48028dc5ca4943a&o=",
+    "contact_info": {
+      "phone": "+380243254327",
+      "email": "contact118@hotelодесса.com",
+      "website": "https://hotelодесса.com"
+    }
+  },
+  {
+    "id": "100",
+    "name": "Отель Запорожье",
+    "location": {
+      "city": "Запорожье",
+      "region": "Запорожская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Запорожье, с удобствами для всех типов путешественников.",
+    "rating": 4.2,
+    "price_per_night": 1020,
+    "amenities": [
+      "Бар",
+      "Кофейня",
+      "Спа-салон"
+    ],
+    "photo": "https://media-cdn.tripadvisor.com/media/photo-s/04/cc/b3/29/caption.jpg",
+    "contact_info": {
+      "phone": "+380519582539",
+      "email": "contact605@hotelзапорожье.com",
+      "website": "https://hotelзапорожье.com"
+    }
+  },
+  {
+    "id": "101",
+    "name": "Отель Киев",
+    "location": {
+      "city": "Киев",
+      "region": "Киевская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Киев, с удобствами для всех типов путешественников.",
+    "rating": 3.9,
+    "price_per_night": 1546,
+    "amenities": [
+      "Ресторан",
+      "Парковка",
+      "Бар"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/245243036.jpg?k=05608b49fe4780d5b1e18d6c574701739359f5b1321c3aaf45272248c96f36d4&o=&hp=1",
+    "contact_info": {
+      "phone": "+380273079936",
+      "email": "contact967@hotelкиев.com",
+      "website": "https://hotelкиев.com"
+    }
+  },
+  {
+    "id": "102",
+    "name": "Отель Полтава",
+    "location": {
+      "city": "Полтава",
+      "region": "Полтавская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Полтава, с удобствами для всех типов путешественников.",
+    "rating": 4.9,
+    "price_per_night": 2168,
+    "amenities": [
+      "Кофейня",
+      "Парковка",
+      "Кондиционер"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/45593564.jpg?k=cb22d92e7f4455b6d3730840ee1172615699807c08cd53091dc1dd1ecd3c6fde&o=",
+    "contact_info": {
+      "phone": "+380343683316",
+      "email": "contact106@hotelполтава.com",
+      "website": "https://hotelполтава.com"
+    }
+  },
+  {
+    "id": "103",
+    "name": "Отель Хмельницкий",
+    "location": {
+      "city": "Хмельницкий",
+      "region": "Хмельницкая область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Хмельницкий, с удобствами для всех типов путешественников.",
+    "rating": 4,
+    "price_per_night": 1117,
+    "amenities": [
+      "Бесплатный Wi-Fi",
+      "Спа-салон",
+      "Парковка"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/608876116.jpg?k=ee25cf9b96c0bd9e9c12fc2d28268fed7aff9301e70b7ac6585bbb5ca4c82cd3&o=",
+    "contact_info": {
+      "phone": "+380664773216",
+      "email": "contact554@hotelхмельницкий.com",
+      "website": "https://hotelхмельницкий.com"
+    }
+  },
+  {
+    "id": "104",
+    "name": "Отель Львов",
+    "location": {
+      "city": "Львов",
+      "region": "Львовская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Львов, с удобствами для всех типов путешественников.",
+    "rating": 3.9,
+    "price_per_night": 2348,
+    "amenities": [
+      "Кондиционер",
+      "Бассейн",
+      "Бесплатный Wi-Fi"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/185849814.jpg?k=95199563dee67589b66b5d6bd6d4c25d3bf4d617ca19555706e1a47e2d107c64&o=",
+    "contact_info": {
+      "phone": "+380515813231",
+      "email": "contact209@hotelльвов.com",
+      "website": "https://hotelльвов.com"
+    }
+  },
+  {
+    "id": "105",
+    "name": "Отель Одесса",
+    "location": {
+      "city": "Одесса",
+      "region": "Одесская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Одесса, с удобствами для всех типов путешественников.",
+    "rating": 4.2,
+    "price_per_night": 2618,
+    "amenities": [
+      "Спа-салон",
+      "Бар",
+      "Тренажерный зал"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/375907040.jpg?k=7872f3195a194a7735bf91173a598c2ff7f62597e5f9b992a48028dc5ca4943a&o=",
+    "contact_info": {
+      "phone": "+380178281242",
+      "email": "contact227@hotelодесса.com",
+      "website": "https://hotelодесса.com"
+    }
+  },
+  {
+    "id": "106",
+    "name": "Отель Харьков",
+    "location": {
+      "city": "Харьков",
+      "region": "Харьковская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Харьков, с удобствами для всех типов путешественников.",
+    "rating": 3.7,
+    "price_per_night": 2082,
+    "amenities": [
+      "Бар",
+      "Тренажерный зал",
+      "Ресторан"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/331285961.jpg?k=d5fae5ff857d80cb08007114cf9f5b0f9f963b07ebf3c4e6b375426b0c98e14d&o=",
+    "contact_info": {
+      "phone": "+380353517981",
+      "email": "contact208@hotelхарьков.com",
+      "website": "https://hotelхарьков.com"
+    }
+  },
+  {
+    "id": "107",
+    "name": "Отель Львов",
+    "location": {
+      "city": "Львов",
+      "region": "Львовская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Львов, с удобствами для всех типов путешественников.",
+    "rating": 4.4,
+    "price_per_night": 1882,
+    "amenities": [
+      "Ресторан",
+      "Кондиционер",
+      "Кофейня"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/185849814.jpg?k=95199563dee67589b66b5d6bd6d4c25d3bf4d617ca19555706e1a47e2d107c64&o=",
+    "contact_info": {
+      "phone": "+380269359497",
+      "email": "contact862@hotelльвов.com",
+      "website": "https://hotelльвов.com"
+    }
+  },
+  {
+    "id": "108",
+    "name": "Отель Днепр",
+    "location": {
+      "city": "Днепр",
+      "region": "Днепропетровская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Днепр, с удобствами для всех типов путешественников.",
+    "rating": 4.2,
+    "price_per_night": 1181,
+    "amenities": [
+      "Тренажерный зал",
+      "Парковка",
+      "Ресторан"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/8219815.jpg?k=28dbe47fa4508ebd572dbfe7e8b033d6a7af21565a7d42d7d4c613dc5dd315d1&o=&hp=1",
+    "contact_info": {
+      "phone": "+380956666076",
+      "email": "contact168@hotelднепр.com",
+      "website": "https://hotelднепр.com"
+    }
+  },
+  {
+    "id": "109",
+    "name": "Отель Харьков",
+    "location": {
+      "city": "Харьков",
+      "region": "Харьковская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Харьков, с удобствами для всех типов путешественников.",
+    "rating": 3.6,
+    "price_per_night": 2585,
+    "amenities": [
+      "Спа-салон",
+      "Тренажерный зал",
+      "Парковка"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/331285961.jpg?k=d5fae5ff857d80cb08007114cf9f5b0f9f963b07ebf3c4e6b375426b0c98e14d&o=",
+    "contact_info": {
+      "phone": "+380640584184",
+      "email": "contact689@hotelхарьков.com",
+      "website": "https://hotelхарьков.com"
+    }
+  },
+  {
+    "id": "110",
+    "name": "Отель Киев",
+    "location": {
+      "city": "Киев",
+      "region": "Киевская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Киев, с удобствами для всех типов путешественников.",
+    "rating": 4,
+    "price_per_night": 1639,
+    "amenities": [
+      "Кофейня",
+      "Кондиционер",
+      "Парковка"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/245243036.jpg?k=05608b49fe4780d5b1e18d6c574701739359f5b1321c3aaf45272248c96f36d4&o=&hp=1",
+    "contact_info": {
+      "phone": "+380756425418",
+      "email": "contact441@hotelкиев.com",
+      "website": "https://hotelкиев.com"
+    }
+  },
+  {
+    "id": "111",
+    "name": "Отель Днепр",
+    "location": {
+      "city": "Днепр",
+      "region": "Днепропетровская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Днепр, с удобствами для всех типов путешественников.",
+    "rating": 4.4,
+    "price_per_night": 2375,
+    "amenities": [
+      "Кофейня",
+      "Бар",
+      "Парковка"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/8219815.jpg?k=28dbe47fa4508ebd572dbfe7e8b033d6a7af21565a7d42d7d4c613dc5dd315d1&o=&hp=1",
+    "contact_info": {
+      "phone": "+380698815788",
+      "email": "contact611@hotelднепр.com",
+      "website": "https://hotelднепр.com"
+    }
+  },
+  {
+    "id": "112",
+    "name": "Отель Днепр",
+    "location": {
+      "city": "Днепр",
+      "region": "Днепропетровская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Днепр, с удобствами для всех типов путешественников.",
+    "rating": 4.3,
+    "price_per_night": 1524,
+    "amenities": [
+      "Бассейн",
+      "Бесплатный Wi-Fi",
+      "Бар"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/8219815.jpg?k=28dbe47fa4508ebd572dbfe7e8b033d6a7af21565a7d42d7d4c613dc5dd315d1&o=&hp=1",
+    "contact_info": {
+      "phone": "+380306428465",
+      "email": "contact788@hotelднепр.com",
+      "website": "https://hotelднепр.com"
+    }
+  },
+  {
+    "id": "113",
+    "name": "Отель Днепр",
+    "location": {
+      "city": "Днепр",
+      "region": "Днепропетровская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Днепр, с удобствами для всех типов путешественников.",
+    "rating": 4.6,
+    "price_per_night": 2082,
+    "amenities": [
+      "Тренажерный зал",
+      "Спа-салон",
+      "Ресторан"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/8219815.jpg?k=28dbe47fa4508ebd572dbfe7e8b033d6a7af21565a7d42d7d4c613dc5dd315d1&o=&hp=1",
+    "contact_info": {
+      "phone": "+380883617497",
+      "email": "contact509@hotelднепр.com",
+      "website": "https://hotelднепр.com"
+    }
+  },
+  {
+    "id": "114",
+    "name": "Отель Киев",
+    "location": {
+      "city": "Киев",
+      "region": "Киевская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Киев, с удобствами для всех типов путешественников.",
+    "rating": 3.9,
+    "price_per_night": 1618,
+    "amenities": [
+      "Бесплатный Wi-Fi",
+      "Бассейн",
+      "Ресторан"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/245243036.jpg?k=05608b49fe4780d5b1e18d6c574701739359f5b1321c3aaf45272248c96f36d4&o=&hp=1",
+    "contact_info": {
+      "phone": "+380635341544",
+      "email": "contact794@hotelкиев.com",
+      "website": "https://hotelкиев.com"
+    }
+  },
+  {
+    "id": "115",
+    "name": "Отель Запорожье",
+    "location": {
+      "city": "Запорожье",
+      "region": "Запорожская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Запорожье, с удобствами для всех типов путешественников.",
+    "rating": 4.1,
+    "price_per_night": 679,
+    "amenities": [
+      "Спа-салон",
+      "Кофейня",
+      "Парковка"
+    ],
+    "photo": "https://media-cdn.tripadvisor.com/media/photo-s/04/cc/b3/29/caption.jpg",
+    "contact_info": {
+      "phone": "+380130929694",
+      "email": "contact335@hotelзапорожье.com",
+      "website": "https://hotelзапорожье.com"
+    }
+  },
+  {
+    "id": "116",
+    "name": "Отель Львов",
+    "location": {
+      "city": "Львов",
+      "region": "Львовская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Львов, с удобствами для всех типов путешественников.",
+    "rating": 4.1,
+    "price_per_night": 2580,
+    "amenities": [
+      "Ресторан",
+      "Парковка",
+      "Кофейня"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/185849814.jpg?k=95199563dee67589b66b5d6bd6d4c25d3bf4d617ca19555706e1a47e2d107c64&o=",
+    "contact_info": {
+      "phone": "+380572630059",
+      "email": "contact488@hotelльвов.com",
+      "website": "https://hotelльвов.com"
+    }
+  },
+  {
+    "id": "117",
+    "name": "Отель Житомир",
+    "location": {
+      "city": "Житомир",
+      "region": "Житомирская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Житомир, с удобствами для всех типов путешественников.",
+    "rating": 4.9,
+    "price_per_night": 2476,
+    "amenities": [
+      "Ресторан",
+      "Кофейня",
+      "Спа-салон"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/115261011.jpg?k=5fcf62fa9b69a7fdbe0371f64223ccd5606a27b69e33fdb6937b6e951502baff&o=",
+    "contact_info": {
+      "phone": "+380634767933",
+      "email": "contact421@hotelжитомир.com",
+      "website": "https://hotelжитомир.com"
+    }
+  },
+  {
+    "id": "118",
+    "name": "Отель Житомир",
+    "location": {
+      "city": "Житомир",
+      "region": "Житомирская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Житомир, с удобствами для всех типов путешественников.",
+    "rating": 4.9,
+    "price_per_night": 2691,
+    "amenities": [
+      "Спа-салон",
+      "Бассейн",
+      "Кофейня"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/115261011.jpg?k=5fcf62fa9b69a7fdbe0371f64223ccd5606a27b69e33fdb6937b6e951502baff&o=",
+    "contact_info": {
+      "phone": "+380241458364",
+      "email": "contact704@hotelжитомир.com",
+      "website": "https://hotelжитомир.com"
+    }
+  },
+  {
+    "id": "119",
+    "name": "Отель Киев",
+    "location": {
+      "city": "Киев",
+      "region": "Киевская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Киев, с удобствами для всех типов путешественников.",
+    "rating": 3.6,
+    "price_per_night": 856,
+    "amenities": [
+      "Кофейня",
+      "Ресторан",
+      "Бесплатный Wi-Fi"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/245243036.jpg?k=05608b49fe4780d5b1e18d6c574701739359f5b1321c3aaf45272248c96f36d4&o=&hp=1",
+    "contact_info": {
+      "phone": "+380535330413",
+      "email": "contact493@hotelкиев.com",
+      "website": "https://hotelкиев.com"
+    }
+  },
+  {
+    "id": "120",
+    "name": "Отель Житомир",
+    "location": {
+      "city": "Житомир",
+      "region": "Житомирская область",
+      "country": "Украина"
+    },
+    "description": "Комфортабельный отель в центре города Житомир, с удобствами для всех типов путешественников.",
+    "rating": 4,
+    "price_per_night": 673,
+    "amenities": [
+      "Кофейня",
+      "Тренажерный зал",
+      "Ресторан"
+    ],
+    "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/115261011.jpg?k=5fcf62fa9b69a7fdbe0371f64223ccd5606a27b69e33fdb6937b6e951502baff&o=",
+    "contact_info": {
+      "phone": "+380118196169",
+      "email": "contact564@hotelжитомир.com",
+      "website": "https://hotelжитомир.com"
+    }
+  }
+]

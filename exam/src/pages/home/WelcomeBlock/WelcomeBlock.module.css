@@ -1,0 +1,38 @@
+
+.welcome_block {
+    margin-bottom: 32px;
+}
+
+.welcome_block .title {
+    text-align: center;
+    margin: 0 0 16px 0;
+    font-size: 26px;
+}
+
+.welcome_block .text {
+    margin: 0 0 16px 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.welcome_block .list {
+    margin: 0 0 16px 0;
+    list-style: none;
+    padding-left: 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.welcome_block .list li::before {
+    content: '✔';
+    color: #27ae60;
+    margin-right: 8px;
+}
+
+.welcome_block .footer {
+    margin: 0 0 16px 0;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    color: #27ae60;
+}

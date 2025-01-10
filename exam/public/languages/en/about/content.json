@@ -1,0 +1,162 @@
+[
+  {
+    "key": "about",
+    "text": "About Booking.com™",
+    "style": "title"
+  },
+  {
+    "key": "about",
+    "text": "Booking.com, founded in 1996 in Amsterdam, has grown from a small Dutch startup to one of the global digital leaders in the travel industry. Booking.com's mission, a division of Booking Holdings Inc. (NASDAQ: BKNG), is to make travel accessible to everyone.™",
+    "style": "text"
+  },
+  {
+    "key": "about",
+    "text": "By investing in technologies that help travel without hassle, Booking.com offers millions of guests amazing leisure options, transport services, and incredible accommodations, from houses to hotels and more. As the world’s largest travel platform for both famous brands and entrepreneurs of all levels, Booking.com helps accommodation owners worldwide attract guests and grow their business.",
+    "style": "text"
+  },
+  {
+    "key": "about",
+    "text": "The Booking.com platform is available in 43 languages. Over 28 million accommodations are available for booking, including more than 6.6 million in houses, apartments, and other unique places. Wherever you are going and whatever you want to do, Booking.com will help you with it. The company’s customer service is available 24/7.",
+    "style": "text"
+  },
+  {
+    "key": "legal",
+    "text": "Legal Information",
+    "style": "title"
+  },
+  {
+    "key": "legal",
+    "text": "Booking.com B.V. (the company owning the Booking.com™ trademark) is registered and located in Amsterdam, Netherlands (hereinafter \"Booking.com\", \"we\", \"us\", or \"our\"), from where it provides the online hotel booking service (\"Service\") on its website (\"Website\"). The company is supported internationally by local companies within its group (\"subsidiary companies\"). The subsidiary companies provide internal support to Booking.com B.V. only. They do not provide the Service, own, use, or manage the Website, or any other website.",
+    "style": "text"
+  },
+  {
+    "key": "legal",
+    "text": "For any inquiries about Booking.com, the Service (i.e., the online accommodation booking service), and the Website, or if you wish to send or deliver documents, correspondence, notifications, or any other messages regarding Booking.com, the Service, or the Website, as well as for press inquiries, please contact Booking.com B.V. directly.",
+    "style": "text"
+  },
+  {
+    "key": "legal",
+    "text": "Booking.com B.V. does not accept and does not have any other legal address at any location, geographic point, or office in any country (including the offices of subsidiary companies) other than its registered office in Amsterdam. Subsidiary companies do not conduct business and are not authorized to act as agents of Booking.com B.V., provide any services, or perform any processes. Bookings through subsidiary companies are not made.",
+    "style": "text"
+  },
+  {
+    "key": "terms",
+    "text": "Customer Service Terms",
+    "style": "title"
+  },
+  {
+    "key": "terms",
+    "text": "Summary of the Terms",
+    "style": "subtitle"
+  },
+  {
+    "key": "terms",
+    "text": "In addition to the Terms on this page, our agreement with you includes two more documents:",
+    "style": "text"
+  },
+  {
+    "key": "terms",
+    "text": "Our 'How We Work' page will help you use our Platform and learn more about how reviews, search rankings, recommendations, how we earn, etc., work.",
+    "style": "text"
+  },
+  {
+    "key": "terms",
+    "text": "By agreeing to our Terms, you agree to all the information in all three documents. If you do not accept any part of these Terms, please do not use our Platform.",
+    "style": "text"
+  },
+  {
+    "key": "terms",
+    "text": "All this information is important because it (together with your confirmation email and any pre-contractual information provided before booking) sets out the legal terms on which Service Providers offer their Travel Products through our Platform.",
+    "style": "text"
+  },
+  {
+    "key": "terms",
+    "text": "If something goes wrong with your Travel Product, Section A15 of these Terms explains what you can do. This includes filing a complaint with us, going to court, and (in some cases) using an online dispute resolution service.",
+    "style": "text"
+  },
+  {
+    "key": "terms",
+    "text": "If you want to appeal a moderation decision or report content on our Platform, our Content Standards and Requirements explain how to do so and how we process such requests.",
+    "style": "text"
+  },
+  {
+    "key": "terms",
+    "text": "This summary is not part of our Terms or a legal document. It is simply a plain explanation of our Terms. We recommend you fully read each document. Some of the words in this summary have specific meanings, so please refer to the 'Booking.com Glossary' at the end of these Terms.",
+    "style": "text"
+  },
+  {
+    "key": "how_we_work",
+    "text": "How We Work",
+    "style": "title"
+  },
+  {
+    "key": "how_we_work",
+    "text": "1A. Definitions and a brief overview of us",
+    "style": "subtitle"
+  },
+  {
+    "key": "how_we_work",
+    "text": "Some of the words you’ll see have specific meanings, so please refer to the 'Booking.com Glossary' in our Terms of Service.",
+    "style": "text"
+  },
+  {
+    "key": "how_we_work",
+    "text": "When you book an Accommodation, Booking.com B.V. provides the Platform and is responsible for it, but not for the Travel Product itself (see below section 1B). Booking.com B.V. is a company registered under Dutch law (registered address: Oosterdokskade 163, 1011 DL, Amsterdam, Netherlands; Chamber of Commerce number: 31047344; tax number: NL805734958B01).",
+    "style": "text"
+  },
+  {
+    "key": "how_we_work",
+    "text": "1B. How does our service work?",
+    "style": "subtitle"
+  },
+  {
+    "key": "how_we_work",
+    "text": "We make it easy for you to compare Bookings at many hotels, with property owners, and other Service Providers.",
+    "style": "text"
+  },
+  {
+    "key": "how_we_work",
+    "text": "When you make a Booking on our Platform, you enter into an agreement with the Service Provider (unless otherwise stated).",
+    "style": "text"
+  },
+  {
+    "key": "how_we_work",
+    "text": "Information on our Platform is based on what Service Providers tell us. We do our best to ensure data is always current, but in reality, updates can take several hours, such as for text descriptions and lists of amenities and services provided by Accommodations.",
+    "style": "text"
+  },
+  {
+    "key": "how_we_work",
+    "text": "1C. Who do we work with?",
+    "style": "subtitle"
+  },
+  {
+    "key": "how_we_work",
+    "text": "Only those Service Providers who have contractual relationships with us will appear on our Platform. They may also offer Travel Products outside of our Platform.",
+    "style": "text"
+  },
+  {
+    "key": "how_we_work",
+    "text": "We do not own Accommodations; each Service Provider is a separate company that has agreed to work with us in a specific way.",
+    "style": "text"
+  },
+  {
+    "key": "how_we_work",
+    "text": "Our Platform shows information about how many Accommodations you can book through us worldwide, and on our search results page, you’ll find how many of these Accommodations might suit you based on what you told us.",
+    "style": "text"
+  },
+  {
+    "key": "how_we_work",
+    "text": "1D. How do we make money?",
+    "style": "subtitle"
+  },
+  {
+    "key": "how_we_work",
+    "text": "We do not buy or (re)sell products or services. After your stay, the Service Provider simply pays us a commission.",
+    "style": "text"
+  },
+  {
+    "key": "how_we_work",
+    "text": "If you see an 'Ad' icon next to a second Accommodation in the search results, it means that the Service Provider paid for the placement in this spot as part of our Booking Network Sponsored Ads program.",
+    "style": "text"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "left": [
+    {
+      "text": "Home",
+      "to": "/"
+    },
+    {
+      "text": "About",
+      "to": "/about"
+    }
+  ],
+  "right": [
+    {
+      "text": "Sign In",
+      "to": "/signin"
+    },
+    {
+      "text": "Register",
+      "to": "/register"
+    }
+  ]
+}

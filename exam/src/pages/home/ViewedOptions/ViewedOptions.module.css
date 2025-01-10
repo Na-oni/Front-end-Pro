@@ -1,0 +1,64 @@
+.hotel_recommendations {
+    margin-bottom: 32px;
+}
+
+.hotel_recommendations button {
+    all: unset;
+}
+
+.hotel_recommendations a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.hotel_recommendations .title {
+    text-align: center;
+    margin: 0 0 16px 0;
+    font-size: 26px;
+}
+
+.hotel_recommendations .list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+}
+
+.hotel_recommendations .card {
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.hotel_recommendations .card:hover {
+    transform: translateY(-4px);
+}
+
+.hotel_recommendations .photo {
+    aspect-ratio: 1 / 1;
+    width: 100%;
+    object-fit: cover;
+}
+
+.hotel_recommendations .info {
+    padding: 16px;
+}
+
+.hotel_recommendations .name {
+    margin: 0 0 8px 0;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.hotel_recommendations .location {
+    margin: 0 0 8px 0;
+    font-size: 14px;
+    color: #777;
+}
+
+.hotel_recommendations .rating {
+    margin: 0;
+    font-weight: bold;
+    font-size: 16px;
+}
