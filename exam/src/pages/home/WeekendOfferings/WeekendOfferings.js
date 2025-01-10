@@ -1,20 +1,20 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 import axios from "axios";
-
 import { updateLocalStorageArray } from '../../../utils/updateLocalStorageArray';
-
 import styles from './WeekendOfferings.module.css';
 
 class WeekendOfferings extends Component {
     constructor(props) {
         super(props);
-        this.state = { language: this.props.language, content: [] };
+        this.state = { language: this.props.language, content: [], isLoading: true };
     }
 
     componentDidMount() {
         const { language } = this.props;
-        axios.get(`/languages/${language}/home/WeekendOfferings.json`).then(response => this.setState({ content: response.data })).catch(console.error);
+        axios.get(`/languages/${language}/home/WeekendOfferings.json`).then(response => {
+            this.setState({ content: response.data, isLoading: false });
+        }).catch(console.error);
     }
 
     save_local_storage = (hotel_id) => {
@@ -23,9 +23,9 @@ class WeekendOfferings extends Component {
 
     render() {
         const { weekend_offerings } = this.props;
-        const { content } = this.state;
+        const { content, isLoading } = this.state;
 
-        if (!content.title || weekend_offerings.length === 0) return <div>{content.loading}</div>;
+        if (isLoading || !content.title || weekend_offerings.length === 0) return <div>{content.loading}</div>;
 
         return (
             <div className={styles.hotel_recommendations}>

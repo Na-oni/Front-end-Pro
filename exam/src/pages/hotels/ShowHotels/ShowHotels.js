@@ -1,7 +1,6 @@
 import React, { Component } from "react";
-import {NavLink} from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import axios from "axios";
-
 import styles from './ShowHotels.module.css';
 
 class ShowHotels extends Component {
@@ -25,8 +24,8 @@ class ShowHotels extends Component {
     }
 
     render() {
-        const {hotels} = this.props;
-        const {content, latest_request} = this.state;
+        const { hotels } = this.props;
+        const { content, latest_request } = this.state;
 
         return (
             <div className={styles.hotels}>

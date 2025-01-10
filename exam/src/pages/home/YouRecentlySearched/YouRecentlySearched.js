@@ -8,12 +8,33 @@ class YouRecentlySearched extends Component {
     constructor(props) {
         super(props);
         const array_latest_requests = JSON.parse(localStorage.getItem('array_latest_requests'));
-        this.state = { language: this.props.language, content: { recent_searches: { heading: 'Загрузка...' } }, error: null, array_latest_requests, redirect_to_hotels: false };
+        this.state = {
+            language: this.props.language,
+            content: { recent_searches: { heading: 'Загрузка...' } },
+            error: null,
+            array_latest_requests,
+            redirect_to_hotels: false,
+            isLoading: true
+        };
     }
 
     componentDidMount() {
         const { language } = this.props;
-        axios.get(`/languages/${language}/home/YouRecentlySearched.json`).then(response => { this.setState({ content: response.data }); }).catch(error => { console.error(error); this.setState({ content: { recent_searches: { heading: 'Ошибка загрузки' } }, error }); });
+        axios.get(`/languages/${language}/home/YouRecentlySearched.json`)
+            .then(response => {
+                this.setState({
+                    content: response.data,
+                    isLoading: false
+                });
+            })
+            .catch(error => {
+                console.error(error);
+                this.setState({
+                    content: { recent_searches: { heading: 'Ошибка загрузки' } },
+                    error,
+                    isLoading: false
+                });
+            });
     }
 
     on_click_button(request) {
@@ -28,7 +49,7 @@ class YouRecentlySearched extends Component {
     }
 
     render() {
-        const { content, error, redirect_to_hotels } = this.state;
+        const { content, error, redirect_to_hotels, isLoading } = this.state;
         const { array_latest_requests } = this.props;
 
         if (redirect_to_hotels) return <Navigate to="/hotels" />;
@@ -37,21 +58,25 @@ class YouRecentlySearched extends Component {
         return (
             <div className={styles.you_recently_searched}>
                 <p className={styles.title}>{content.recent_searches.title}</p>
-                <div className={styles.you_recently_searched_div}>
-                    {array_latest_requests && array_latest_requests.length > 0 ? (
-                        array_latest_requests.map((item, index) => (
-                            <div className={styles.item} key={index} onClick={() => this.on_click_button(item)}>
-                                <div className={styles.img}><img src={icon} alt="item.img"/></div>
-                                <div className={styles.text}>
-                                    <p className={styles.city}>{item.city}</p>
-                                    <p className={styles.remainder}>
-                                        {item.startDate} - {item.endDate}, {item.adults + item.children} {content.recent_searches.people}
-                                    </p>
+                {isLoading ? (
+                    <p className={styles.loading}>Загрузка...</p>
+                ) : (
+                    <div className={styles.you_recently_searched_div}>
+                        {array_latest_requests && array_latest_requests.length > 0 ? (
+                            array_latest_requests.map((item, index) => (
+                                <div className={styles.item} key={index} onClick={() => this.on_click_button(item)}>
+                                    <div className={styles.img}><img src={icon} alt="item.img"/></div>
+                                    <div className={styles.text}>
+                                        <p className={styles.city}>{item.city}</p>
+                                        <p className={styles.remainder}>
+                                            {item.startDate} - {item.endDate}, {item.adults + item.children} {content.recent_searches.people}
+                                        </p>
+                                    </div>
                                 </div>
-                            </div>
-                        ))
-                    ) : (<></>)}
-                </div>
+                            ))
+                        ) : (<></>)}
+                    </div>
+                )}
             </div>
         );
     }

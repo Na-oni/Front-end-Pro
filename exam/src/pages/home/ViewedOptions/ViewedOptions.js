@@ -1,26 +1,28 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 import axios from "axios";
-
 import { updateLocalStorageArray } from '../../../utils/updateLocalStorageArray';
-
 import styles from './ViewedOptions.module.css';
 
 class ViewedOptions extends Component {
     constructor(props) {
         super(props);
-        this.state = { language: this.props.language,array_viewed_options: [], content: [] };
+        this.state = { language: this.props.language, array_viewed_options: [], content: [], isLoading: true };
     }
 
     componentDidMount() {
         const { language, array_viewed_options_id } = this.props;
         axios.get(`/languages/${language}/home/ViewedOptions.json`).then(response => this.setState({ content: response.data })).catch(console.error);
-        axios.post(`${process.env.REACT_APP_API_URL}/hotels_by_ids`, { array_id: array_viewed_options_id }).then(response => {this.setState({ array_viewed_options: response.data });}).catch(error => console.error('Error fetching data:', error));
+        axios.post(`${process.env.REACT_APP_API_URL}/hotels_by_ids`, { array_id: array_viewed_options_id }).then(response => {
+            this.setState({ array_viewed_options: response.data, isLoading: false });
+        }).catch(error => console.error('Error fetching data:', error));
     }
 
     componentDidUpdate(prevProps) {
         if (prevProps.array_viewed_options_id !== this.props.array_viewed_options_id) {
-            axios.post(`${process.env.REACT_APP_API_URL}/hotels_by_ids`, { array_id: this.props.array_viewed_options_id }).then(response => {this.setState({ array_viewed_options: response.data });}).catch(error => console.error('Error updating data:', error));
+            axios.post(`${process.env.REACT_APP_API_URL}/hotels_by_ids`, { array_id: this.props.array_viewed_options_id }).then(response => {
+                this.setState({ array_viewed_options: response.data, isLoading: false });
+            }).catch(error => console.error('Error updating data:', error));
         }
     }
 
@@ -29,11 +31,9 @@ class ViewedOptions extends Component {
     };
 
     render() {
-        const { array_viewed_options, content } = this.state;
+        const { array_viewed_options, content, isLoading } = this.state;
 
-
-
-        if (!array_viewed_options || array_viewed_options.length === 0) {return <div>Loading...</div>;}
+        if (isLoading) { return <div>Loading...</div>; }
 
         return (
             <div className={styles.hotel_recommendations}>

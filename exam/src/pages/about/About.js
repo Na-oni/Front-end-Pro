@@ -1,19 +1,23 @@
 import React, { Component } from "react";
 import axios from 'axios';
-
 import styles from './About.module.css';
 
 class About extends Component {
     constructor(props) {
         super(props);
         const language = localStorage.getItem('language');
-        this.state = { language: language, menu: [], content: [], select_menu: "about" };
+        this.state = { language: language, menu: [], content: [], select_menu: "about", isLoading: true };
     }
 
     componentDidMount() {
         const { language } = this.state;
-        axios.get('/languages/' + language + '/about/menu.json').then(response => this.setState({ menu: response.data })).catch(error => console.error(error));
-        axios.get('/languages/' + language + '/about/content.json').then(response => this.setState({ content: response.data })).catch(error => console.error(error));
+        axios.get('/languages/' + language + '/about/menu.json').then(response => {
+            this.setState({ menu: response.data });
+        }).catch(error => console.error(error));
+
+        axios.get('/languages/' + language + '/about/content.json').then(response => {
+            this.setState({ content: response.data, isLoading: false });
+        }).catch(error => console.error(error));
     }
 
     on_click_about_menu(key) {
@@ -21,8 +25,10 @@ class About extends Component {
     }
 
     render() {
-        const { menu, content, select_menu } = this.state;
+        const { menu, content, select_menu, isLoading } = this.state;
         const filtered_content = content.filter(item => item.key === select_menu);
+
+        if (isLoading) { return <div>Loading...</div>; }
 
         return (
             <main>

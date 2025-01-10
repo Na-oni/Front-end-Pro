@@ -5,21 +5,27 @@ import styles from "./Page.module.css";
 
 const Page = () => {
     const { id } = useParams();
-    const [hotel, setHotel] = useState([]);
+    const [hotel, setHotel] = useState(null);
     const [arrayLatestRequests, setArrayLatestRequests] = useState(
         JSON.parse(localStorage.getItem("array_latest_requests")) || []
     );
     const [latestRequest, setLatestRequest] = useState(
         arrayLatestRequests.length > 0 ? arrayLatestRequests[arrayLatestRequests.length - 1] : null
     );
+    const [isLoading, setIsLoading] = useState(true);
 
     useEffect(() => {
+        setIsLoading(true);
         axios
             .post(`${process.env.REACT_APP_API_URL}/page`, { id: id })
             .then((response) => {
                 setHotel(response.data);
+                setIsLoading(false);
             })
-            .catch((error) => console.error("Error fetching data:", error));
+            .catch((error) => {
+                console.error("Error fetching data:", error);
+                setIsLoading(false);
+            });
     }, [id]);
 
     const saveLocalStorage = (latestRequest) => {
@@ -33,7 +39,7 @@ const Page = () => {
             .catch((error) => console.error(error));
     };
 
-    if (hotel.length === 0) {
+    if (isLoading) {
         return <div className={styles.loading}>Loading...</div>;
     }
 
@@ -44,7 +50,7 @@ const Page = () => {
             <div className={styles.container}>
                 <div className={styles.page}>
                     <div className={styles.image}>
-                        <img src={photo} alt={name}/>
+                        <img src={photo} alt={name} />
                     </div>
                     <div className={styles.info}>
                         <div className={styles.name}>
@@ -65,8 +71,7 @@ const Page = () => {
                             <p className={styles.title}>Контакты</p>
                             <p className={styles.text}>Телефон: {contact_info.phone}</p>
                             <p className={styles.text}>Email: <a href={`mailto:${contact_info.email}`}>{contact_info.email}</a></p>
-                            <p className={styles.text}>Веб-сайт:{" "}<a href={contact_info.website} target="_blank" rel="noopener noreferrer">{contact_info.website}</a>
-                            </p>
+                            <p className={styles.text}>Веб-сайт:{" "}<a href={contact_info.website} target="_blank" rel="noopener noreferrer">{contact_info.website}</a></p>
                         </div>
 
                         <p className={styles.price}>Цена за ночь: {hotel.price_per_night} грн</p>
